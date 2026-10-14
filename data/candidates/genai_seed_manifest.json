@@ -1,0 +1,234 @@
+{
+  "domain": "generative_ai",
+  "target_min": 100,
+  "target_max": 160,
+  "hard_minimum": 80,
+  "groups": [
+    {
+      "subdomain": "foundations",
+      "preferred_sources": [
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "generative AI", "aliases": ["generative artificial intelligence"] },
+        { "term": "artificial intelligence", "aliases": ["AI"] },
+        { "term": "machine learning", "aliases": ["ML"] },
+        { "term": "deep learning", "aliases": [] },
+        { "term": "foundation model", "aliases": [] },
+        { "term": "generative model", "aliases": [] },
+        { "term": "discriminative model", "aliases": [] },
+        { "term": "multimodal model", "aliases": [] },
+        { "term": "language model", "aliases": [] },
+        { "term": "large language model", "aliases": ["LLM"] },
+        { "term": "synthetic data", "aliases": [] },
+        { "term": "neural network", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "transformer_llm",
+      "preferred_sources": [
+        "google_genai",
+        "google_ml",
+        "google_cloud_genai"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "transformer", "aliases": ["transformer model"] },
+        { "term": "attention", "aliases": [] },
+        { "term": "self-attention", "aliases": [] },
+        { "term": "multi-head attention", "aliases": [] },
+        { "term": "encoder", "aliases": [] },
+        { "term": "decoder", "aliases": [] },
+        { "term": "encoder-decoder", "aliases": ["encoder decoder"] },
+        { "term": "autoregressive model", "aliases": [] },
+        { "term": "causal language model", "aliases": [] },
+        { "term": "masked language model", "aliases": [] },
+        { "term": "sequence-to-sequence", "aliases": ["seq2seq"] },
+        { "term": "positional encoding", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "representation_context",
+      "preferred_sources": [
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "token", "aliases": ["tokens"] },
+        { "term": "tokenization", "aliases": [] },
+        { "term": "tokenizer", "aliases": [] },
+        { "term": "vocabulary", "aliases": [] },
+        { "term": "embedding", "aliases": ["embeddings"] },
+        { "term": "embedding model", "aliases": [] },
+        { "term": "embedding space", "aliases": [] },
+        { "term": "context window", "aliases": [] },
+        { "term": "context length", "aliases": [] },
+        { "term": "in-context learning", "aliases": ["ICL"] },
+        { "term": "semantic representation", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "training_alignment",
+      "preferred_sources": [
+        "google_ml",
+        "google_genai",
+        "google_cloud_genai"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "pretraining", "aliases": ["pre-training"] },
+        { "term": "pretrained model", "aliases": ["pre-trained model"] },
+        { "term": "fine-tuning", "aliases": ["fine tuning"] },
+        { "term": "instruction tuning", "aliases": ["instruction fine-tuning"] },
+        { "term": "transfer learning", "aliases": [] },
+        { "term": "reinforcement learning", "aliases": ["RL"] },
+        { "term": "reinforcement learning from human feedback", "aliases": ["RLHF"] },
+        { "term": "human feedback", "aliases": [] },
+        { "term": "alignment", "aliases": [] },
+        { "term": "knowledge distillation", "aliases": ["distillation"] },
+        { "term": "overfitting", "aliases": [] },
+        { "term": "underfitting", "aliases": [] },
+        { "term": "regularization", "aliases": [] },
+        { "term": "loss function", "aliases": [] },
+        { "term": "gradient descent", "aliases": [] },
+        { "term": "learning rate", "aliases": [] },
+        { "term": "batch size", "aliases": [] },
+        { "term": "epoch", "aliases": [] },
+        { "term": "model checkpoint", "aliases": ["checkpoint"] },
+        { "term": "quantization", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "prompting_inference",
+      "preferred_sources": [
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "prompt", "aliases": [] },
+        { "term": "prompt engineering", "aliases": ["prompting"] },
+        { "term": "system prompt", "aliases": [] },
+        { "term": "zero-shot prompting", "aliases": ["zero-shot"] },
+        { "term": "few-shot prompting", "aliases": ["few-shot"] },
+        { "term": "chain-of-thought prompting", "aliases": ["chain of thought"] },
+        { "term": "instruction-following", "aliases": ["instruction following"] },
+        { "term": "inference", "aliases": [] },
+        { "term": "decoding", "aliases": [] },
+        { "term": "sampling", "aliases": [] },
+        { "term": "temperature", "aliases": [] },
+        { "term": "top-k sampling", "aliases": ["top-k"] },
+        { "term": "top-p sampling", "aliases": ["top-p"] },
+        { "term": "greedy decoding", "aliases": [] },
+        { "term": "beam search", "aliases": [] },
+        { "term": "structured output", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "retrieval_agents",
+      "preferred_sources": [
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "grounding", "aliases": [] },
+        { "term": "retrieval-augmented generation", "aliases": ["RAG"] },
+        { "term": "retriever", "aliases": [] },
+        { "term": "vector search", "aliases": [] },
+        { "term": "vector database", "aliases": [] },
+        { "term": "semantic search", "aliases": [] },
+        { "term": "knowledge base", "aliases": [] },
+        { "term": "AI agent", "aliases": ["AI agents"] },
+        { "term": "agentic AI", "aliases": [] },
+        { "term": "function calling", "aliases": ["tool calling"] },
+        { "term": "tool use", "aliases": [] },
+        { "term": "agent memory", "aliases": [] },
+        { "term": "agent orchestration", "aliases": [] },
+        { "term": "retrieval context", "aliases": [] },
+        { "term": "grounded generation", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "generative_media",
+      "preferred_sources": [
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "multimodal AI", "aliases": ["multimodality"] },
+        { "term": "image generation", "aliases": [] },
+        { "term": "text-to-image", "aliases": [] },
+        { "term": "text-to-video", "aliases": [] },
+        { "term": "text-to-speech", "aliases": ["TTS"] },
+        { "term": "speech-to-text", "aliases": ["STT"] },
+        { "term": "diffusion model", "aliases": [] },
+        { "term": "denoising", "aliases": [] },
+        { "term": "latent diffusion", "aliases": [] },
+        { "term": "generative adversarial network", "aliases": ["GAN"] },
+        { "term": "variational autoencoder", "aliases": ["VAE"] },
+        { "term": "latent space", "aliases": [] }
+      ]
+    },
+    {
+      "subdomain": "evaluation",
+      "preferred_sources": [
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "model evaluation", "aliases": [] },
+        { "term": "evaluation metric", "aliases": [] },
+        { "term": "benchmark", "aliases": [] },
+        { "term": "human evaluation", "aliases": [] },
+        { "term": "automated evaluation", "aliases": [] },
+        { "term": "ground truth", "aliases": [] },
+        { "term": "factuality", "aliases": [] },
+        { "term": "groundedness", "aliases": [] },
+        { "term": "latency", "aliases": [] },
+        { "term": "time to first token", "aliases": ["TTFT"] }
+      ]
+    },
+    {
+      "subdomain": "safety_security",
+      "preferred_sources": [
+        "nist_csrc",
+        "google_genai",
+        "google_cloud_genai",
+        "google_ml"
+      ],
+      "selection_policy": "preferred_then_fallback",
+      "terms": [
+        { "term": "hallucination", "aliases": [] },
+        { "term": "confabulation", "aliases": [] },
+        { "term": "prompt injection", "aliases": [] },
+        { "term": "jailbreak", "aliases": [] },
+        { "term": "data poisoning", "aliases": [] },
+        { "term": "model poisoning", "aliases": [] },
+        { "term": "adversarial attack", "aliases": [] },
+        { "term": "adversarial example", "aliases": [] },
+        { "term": "memorization", "aliases": [] },
+        { "term": "data leakage", "aliases": [] },
+        { "term": "privacy risk", "aliases": [] },
+        { "term": "AI safety", "aliases": [] },
+        { "term": "AI security", "aliases": [] },
+        { "term": "responsible AI", "aliases": [] },
+        { "term": "trustworthy AI", "aliases": [] },
+        { "term": "content safety", "aliases": [] },
+        { "term": "content moderation", "aliases": [] },
+        { "term": "toxicity", "aliases": [] }
+      ]
+    }
+  ]
+}

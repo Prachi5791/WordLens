@@ -1,0 +1,4888 @@
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com"><meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award https://www.googleapis.com/auth/devprofiles.full_control.firstparty"><meta property="og:site_name" content="Google Cloud Documentation">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#1a73e8"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/clouddocs/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/css/app.css">
+      
+        <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/css/dark-theme.css" disabled>
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/favicons/onecloud/favicon.ico">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/favicons/onecloud/super_cloud.png"><link rel="canonical" href="https://docs.cloud.google.com/docs/generative-ai/glossary"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google Cloud Documentation" href="https://docs.cloud.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary" /><link rel="alternate" hreflang="x-default" href="https://docs.cloud.google.com/docs/generative-ai/glossary" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=zh-tw" /><link rel="alternate" hreflang="fr"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=he" /><link rel="alternate" hreflang="id"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=ko" /><link rel="alternate" hreflang="pt-BR"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=pt-br" /><link rel="alternate" hreflang="pt"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=pt" /><link rel="alternate" hreflang="es"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=es" /><link rel="alternate" hreflang="es-419"
+          href="https://docs.cloud.google.com/docs/generative-ai/glossary?hl=es-419" /><link rel="alternate" hreflang="en-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary" /><link rel="alternate" hreflang="x-default" href="https://docs.cloud.google.cn/docs/generative-ai/glossary" /><link rel="alternate" hreflang="zh-Hans-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=zh-tw" /><link rel="alternate" hreflang="fr-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=fr" /><link rel="alternate" hreflang="de-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=de" /><link rel="alternate" hreflang="he-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=he" /><link rel="alternate" hreflang="id-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=id" /><link rel="alternate" hreflang="it-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=it" /><link rel="alternate" hreflang="ja-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=ja" /><link rel="alternate" hreflang="ko-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=ko" /><link rel="alternate" hreflang="pt-BR-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=pt-br" /><link rel="alternate" hreflang="pt-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=pt" /><link rel="alternate" hreflang="es-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=es" /><link rel="alternate" hreflang="es-419-cn"
+          href="https://docs.cloud.google.cn/docs/generative-ai/glossary?hl=es-419" /><title>Generative AI glossary &nbsp;|&nbsp; Google Cloud Documentation</title>
+
+<meta property="og:title" content="Generative AI glossary &nbsp;|&nbsp; Google Cloud Documentation"><meta name="description" content="Learn about specific terms that are associated with generative AI.">
+  <meta property="og:description" content="Learn about specific terms that are associated with generative AI."><meta property="og:url" content="https://docs.cloud.google.com/docs/generative-ai/glossary"><meta property="og:image" content="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    
+    "headline": "Generative AI glossary"
+  }
+</script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "AI and ML",
+      "item": "https://docs.cloud.google.com/docs/ai-ml"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Generative AI",
+      "item": "https://docs.cloud.google.com/docs/generative-ai"
+    },{
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generative AI glossary",
+      "item": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }]
+  }
+  </script>
+  
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+  
+
+    </head>
+  <body class="color-scheme--light"
+        template="page"
+        theme="clouddocs-theme"
+        type="article"
+        
+        appearance
+        
+        layout="docs"
+        
+        
+        free-trial
+        
+        
+        display-toc
+        pending>
+  
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+  
+    <a href="#main-content" class="skip-link button">
+      
+      Skip to main content
+    </a>
+    <section class="devsite-wrapper">
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+        <cloudx-track userCountry="IN"></cloudx-track>
+
+<devsite-header role="banner" keep-tabs-visible>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner" data-nosnippet>
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        
+<div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="googleCloudDocumentation" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup_dark_theme.svg"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme">
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup_full_color.svg" class="devsite-site-logo" alt="Google Cloud Documentation">
+  </picture>
+  
+</a>
+
+
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab class="devsite-dropdown
+    devsite-dropdown-full
+    devsite-active
+    devsite-clickable
+    ">
+  
+    <a href="https://docs.cloud.google.com/docs"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/docs"
+    
+       track-type="nav"
+       track-metadata-position="nav - docs-home"
+       track-metadata-module="primary nav"
+       aria-label="Documentation, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Documentation"
+         
+           track-name="docs-home"
+         
+           track-link-column-type="single-column"
+         
+       >
+    Documentation
+  
+    </a>
+    
+      <button
+         aria-haspopup="menu"
+         aria-expanded="false"
+         aria-label="Dropdown menu for Documentation"
+         track-type="nav"
+         track-metadata-eventdetail="https://docs.cloud.google.com/docs"
+         track-metadata-position="nav - docs-home"
+         track-metadata-module="primary nav"
+         
+          
+            data-category="Site-Wide Custom Events"
+          
+            data-label="Tab: Documentation"
+          
+            track-name="docs-home"
+          
+            track-link-column-type="single-column"
+          
+        
+         class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></button>
+    
+  
+  <div class="devsite-tabs-dropdown" role="menu" aria-label="submenu" hidden>
+    <div class="devsite-tabs-dropdown-content">
+      
+        <button class="devsite-tabs-close-button material-icons button-flat gc-analytics-event"
+                data-category="Site-Wide Custom Events"
+                data-label="Close dropdown menu"
+                aria-label="Close dropdown menu"
+                track-type="nav"
+                track-name="close"
+                track-metadata-eventdetail="#"
+                track-metadata-position="nav - docs-home"
+                track-metadata-module="tertiary nav">close</button>
+      
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Get Started</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/get-started"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/get-started"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="get started"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Get Started with Google Cloud
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/product-list"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/product-list"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="get started"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Product List
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/support/docs"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/support/docs"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="get started"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud Customer Care
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Featured Products</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/products/gemini-enterprise-agent-platform"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/products/gemini-enterprise-agent-platform"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Agent Platform
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/apigee"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/apigee"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Apigee API Management
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/bigquery"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/bigquery"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      BigQuery
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/products/compute"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/products/compute"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Compute Engine
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/cdn"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/cdn"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud CDN
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/run"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/run"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud Run
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/storage"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/storage"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud Storage
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/sql"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/sql"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud SQL
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/gemini/enterprise/docs"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/gemini/enterprise/docs"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Gemini Enterprise
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/kubernetes-engine"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/kubernetes-engine"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Google Kubernetes Engine
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/looker"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/looker"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Looker
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Cross-product Tools</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/access-resources"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/access-resources"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Access and resources management
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/costs-usage"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/costs-usage"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Costs and usage management
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/iac"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/iac"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Infrastructure as code
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/devtools"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/devtools"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      SDK, languages, frameworks, and tools
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Technology Areas</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/ai-ml"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/ai-ml"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      AI and ML
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/application-development"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/application-development"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Application development
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/application-hosting"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/application-hosting"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Application hosting
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/compute-area"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/compute-area"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Compute
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/data"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/data"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Data analytics and pipelines
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/databases"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/databases"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Databases
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/dhm-cloud"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/dhm-cloud"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Distributed, hybrid, and multicloud
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/industry"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/industry"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Industry solutions
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/migration"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/migration"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Migration
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/networking"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/networking"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Networking
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/observability"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/observability"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Observability and monitoring
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/security"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/security"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Security
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/storage"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/storage"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Storage
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      
+    
+    enable-search-summaries
+    project-name="Generative AI"
+    tenant-name="Google Cloud Documentation"
+    
+    
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://docs.cloud.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+              <svg class="devsite-search-ai-image" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_6641_386)">
+                    <path d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14167 15.375 4.875 14.125C3.625 12.8583 3 11.3167 3 9.5C3 7.68333 3.625 6.15 4.875 4.9C6.14167 3.63333 7.68333 3 9.5 3C10.0167 3 10.5167 3.05833 11 3.175C11.4833 3.275 11.9417 3.43333 12.375 3.65L10.825 5.2C10.6083 5.13333 10.3917 5.08333 10.175 5.05C9.95833 5.01667 9.73333 5 9.5 5C8.25 5 7.18333 5.44167 6.3 6.325C5.43333 7.19167 5 8.25 5 9.5C5 10.75 5.43333 11.8167 6.3 12.7C7.18333 13.5667 8.25 14 9.5 14C10.6667 14 11.6667 13.625 12.5 12.875C13.35 12.1083 13.8417 11.15 13.975 10H15.975C15.925 10.6333 15.7833 11.2333 15.55 11.8C15.3333 12.3667 15.05 12.8667 14.7 13.3L21 19.6L19.6 21ZM17.5 12C17.5 10.4667 16.9667 9.16667 15.9 8.1C14.8333 7.03333 13.5333 6.5 12 6.5C13.5333 6.5 14.8333 5.96667 15.9 4.9C16.9667 3.83333 17.5 2.53333 17.5 0.999999C17.5 2.53333 18.0333 3.83333 19.1 4.9C20.1667 5.96667 21.4667 6.5 23 6.5C21.4667 6.5 20.1667 7.03333 19.1 8.1C18.0333 9.16667 17.5 10.4667 17.5 12Z" fill="#5F6368"/>
+                  </g>
+                <defs>
+                <clipPath id="clip0_6641_386">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            
+          </div>
+          <div class="devsite-search-shortcut-icon-container" aria-hidden="true">
+            <kbd class="devsite-search-shortcut-icon">/</kbd>
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+  
+
+  
+    <a class="devsite-header-link devsite-top-button button gc-analytics-event button-with-icon"
+    href="//console.cloud.google.com/"
+    data-category="Site-Wide Custom Events"
+    data-label="Site header link: Console"
+    
+      
+        track-type="globalNav"
+      
+        track-name="console"
+      
+        referrerpolicy="no-referrer-when-downgrade"
+      
+        track-metadata-eventDetail="nav"
+      
+        track-metadata-position="nav"
+      
+    >
+  Console
+</a>
+  
+
+  
+
+  <devsite-appearance-selector></devsite-appearance-selector>
+
+  
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt"
+        >Português</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+
+
+        
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Sign in</span>
+            
+          </devsite-user>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    ">
+    <div class="devsite-header-background">
+      
+        
+          <div class="devsite-product-id-row"
+           >
+            <div class="devsite-product-description-row">
+              
+                
+                <div class="devsite-product-id">
+                  
+                    
+  
+  <a href="https://docs.cloud.google.com/docs/generative-ai">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <source class="devsite-dark-theme"
+              media="(prefers-color-scheme: dark)"
+              srcset=" /_static/clouddocs/images/icons/categories/ai-and-machine-learning-white.svg"
+              sizes="64px">
+      
+      <img class="devsite-product-logo"
+           alt=""
+           src="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+           srcset=" /_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+           sizes="64px"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+                  
+                  
+                  
+                    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Lower header breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs/ai-ml"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Lower Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="AI and ML"
+      
+    >
+    
+          AI and ML
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs/generative-ai"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Lower Header"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail="Generative AI"
+      
+    >
+    
+          Generative AI
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+                </div>
+                
+              
+              
+            </div>
+            
+              <div class="devsite-product-button-row">
+  
+
+  
+  <a href="//console.cloud.google.com/freetrial"
+  
+    class="cloud-free-trial-button button button-primary
+      "
+    
+    
+      
+        track-name="gcpCta"
+      
+        track-type="freeTrial"
+      
+        track-metadata-position="nav"
+      
+        track-metadata-eventDetail="nav"
+      
+        referrerpolicy="no-referrer-when-downgrade"
+      
+    
+    >Start free</a>
+
+</div>
+            
+          </div>
+          
+        
+      
+      
+        <div class="devsite-doc-set-nav-row">
+          
+          
+            
+            
+  <devsite-tabs class="lower-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Lower tabs">
+      
+        
+          <tab  >
+            
+    <a href="https://docs.cloud.google.com/docs/generative-ai"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/docs/generative-ai"
+    
+       track-type="nav"
+       track-metadata-position="nav - overview"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Overview"
+         
+           track-name="overview"
+         
+       >
+    Overview
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://docs.cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"
+    
+       track-type="nav"
+       track-metadata-position="nav - guides"
+       track-metadata-module="primary nav"
+       aria-label="Guides, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Guides"
+         
+           track-name="guides"
+         
+       >
+    Guides
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+          
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+        <devsite-book-nav scrollbars >
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     >
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent" data-nosnippet
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="googleCloudDocumentation" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup_dark_theme.svg"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme">
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup_full_color.svg" class="devsite-site-logo" alt="Google Cloud Documentation">
+  </picture>
+  
+</a>
+
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Documentation"
+      
+        track-name="docs-home"
+      
+        track-link-column-type="single-column"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Documentation"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Documentation
+   </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Documentation"
+      
+        track-name="docs-home"
+      
+        track-link-column-type="single-column"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Documentation">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Documentation">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+                <ul class="devsite-nav-responsive-tabs">
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/docs/generative-ai"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Overview"
+      
+        track-name="overview"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Overview"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Overview
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Guides"
+      
+        track-name="guides"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Guides"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip menu="_book">
+      Guides
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+          
+    
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="//console.cloud.google.com/"
+    
+       class="devsite-nav-title gc-analytics-event button-with-icon"
+    
+
+    
+      
+        track-type="globalNav"
+      
+        track-name="console"
+      
+        referrerpolicy="no-referrer-when-downgrade"
+      
+        track-metadata-eventDetail="nav"
+      
+        track-metadata-position="nav"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Console"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Console
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Learn about building generative AI applications</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>When to use generative AI</span></a></li><li class="devsite-nav-item"><a href="/docs/ai-ml/generative-ai/develop-generative-ai-application"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Development process for generative AI applications</span></a></li><li class="devsite-nav-item"><a href="/docs/generative-ai/choose-models-infra-for-ai"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Choose models and infrastructure for your generative AI application</span></a></li><li class="devsite-nav-item"><a href="/docs/ai-ml/accelerator-performance-benchmarking"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>AI accelerator performance and benchmarking</span></a></li><li class="devsite-nav-item"><a href="/docs/generative-ai/code-samples"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Code samples and sample applications</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/migrate/migrate-google-ai"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>When to access Gemini through Google AI vs. Vertex AI</span></a></li><li class="devsite-nav-item"><a href="/docs/ai-ml/generative-ai/evaluate-define-generative-ai-use-case"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Evaluate and define your generative AI business use case</span></a></li><li class="devsite-nav-item"><a href="/docs/generative-ai/glossary"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Generative AI glossary</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Model exploration and hosting</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/learn/models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Google Models on Vertex AI (Gemini, Imagen)</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/model-garden/explore-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Other models in the Vertex AI Model Garden</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/open-models/use-hugging-face-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Text generation models via HuggingFace</span></a></li><li class="devsite-nav-item"><a href="/kubernetes-engine/docs/integrations/ai-infra"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>AI/ML orchestration on GKE</span></a></li><li class="devsite-nav-item"><a href="/run/docs/ai"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>AI/ML orchestration on Cloud Run</span></a></li><li class="devsite-nav-item"><a href="/compute/docs/gpus/about-gpus"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>GPUs on Compute Engine</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Prompt design and engineering</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/start/quickstarts/quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vertex AI Studio</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Overview of Prompting Strategies</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/prompt-gallery"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Prompt Gallery</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Grounding and Retrieval-Augmented Generation (RAG)</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/grounding/overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vertex AI grounding</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/multimodal/ground-gemini#web-ground-gemini"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Ground with Google Search</span></a></li><li class="devsite-nav-item"><a href="/alloydb/docs/ai/work-with-embeddings"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vector embeddings in AlloyDB</span></a></li><li class="devsite-nav-item"><a href="/pgvector?tab=readme-ov-file#pgvector"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Cloud SQL and pgvector</span></a></li><li class="devsite-nav-item"><a href="https://cloud.google.com/blog/products/ai-machine-learning/open-source-framework-for-connecting-llms-to-your-data"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Integrating BigQuery data into your LangChain application</span></a></li><li class="devsite-nav-item"><a href="/firestore/docs/vector-search"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vector embeddings in Firestore</span></a></li><li class="devsite-nav-item"><a href="/memorystore/docs/redis/about-vector-search"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vector embeddings in Memorystore (Redis)</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Agents and function calling</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/generative-ai-app-builder/docs/introduction"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vertex AI Agent Builder</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/multimodal/function-calling"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vertex AI Function calling</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Model customization and training</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/models/evaluation-overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Evaluate models in Vertex AI</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/models/tune-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tune Vertex AI models</span></a></li><li class="devsite-nav-item"><a href="/tpu/docs"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Cloud TPU</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Generative AI products</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/vertex-ai/docs/generative-ai/start/quickstarts/quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vertex AI Studio</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Generative AI Models</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/learn/models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Google models</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/docs/start/explore-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Model Garden</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/learn/model-versions"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Model versions</span></a></li><li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Open models</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/open-models/use-open-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Use open models</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/open-models/use-gemma"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Google Gemma</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/open-models/use-llama"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Llama</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/open-models/use-hugging-face-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hugging Face text generation models</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/open-models/use-hex-llm"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hex-LLM</span></a></li></ul></div></li><li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Partner models</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/partner-models/use-partner-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Use partner models</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/partner-models/use-claude"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Anthropic Claude</span></a></li></ul></div></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Generate an AI response</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/multimodal/send-chat-prompts-gemini"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Text and code generation</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/image/overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Image generation</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/embeddings"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Embeddings</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Prompt design and engineering</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Improve AI responses</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/grounding/overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Grounding</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/models/tune-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tuning</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/multimodal/function-calling"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Function calling</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/docs/generative-ai/models/evaluate-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Evaluation</span></a></li><li class="devsite-nav-item"><a href="/vertex-ai/generative-ai/docs/multimodal/configure-safety-attributes"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Safety</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="/kubernetes-engine/docs/integrations/ai-infra"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>AI/ML orchestration on GKE</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/run/docs/ai"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>AI/ML orchestration on Cloud Run</span></a></li>
+          </ul>
+        
+        
+          
+    
+      
+      <ul class="devsite-nav-list" menu="Documentation"
+          aria-label="Side menu" hidden>
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Get Started
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/get-started"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Get Started with Google Cloud"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Get Started with Google Cloud
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/product-list"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Product List"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Product List
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/support/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud Customer Care"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud Customer Care
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Featured Products
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products/gemini-enterprise-agent-platform"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Agent Platform"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Agent Platform
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/apigee"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Apigee API Management"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Apigee API Management
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/bigquery"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: BigQuery"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      BigQuery
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products/compute"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Compute Engine"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Compute Engine
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/cdn"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud CDN"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud CDN
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/run"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud Run"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud Run
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/storage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud Storage"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud Storage
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/sql"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud SQL"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud SQL
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/gemini/enterprise/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Gemini Enterprise"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Gemini Enterprise
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/kubernetes-engine"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Kubernetes Engine"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Kubernetes Engine
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/looker"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Looker"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Looker
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Cross-product Tools
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/access-resources"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Access and resources management"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Access and resources management
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/costs-usage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Costs and usage management"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Costs and usage management
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/iac"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Infrastructure as code"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Infrastructure as code
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/devtools"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: SDK, languages, frameworks, and tools"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      SDK, languages, frameworks, and tools
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Technology Areas
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/ai-ml"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: AI and ML"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      AI and ML
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/application-development"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Application development"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Application development
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/application-hosting"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Application hosting"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Application hosting
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/compute-area"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Compute"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Compute
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/data"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Data analytics and pipelines"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Data analytics and pipelines
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/databases"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Databases"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Databases
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/dhm-cloud"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Distributed, hybrid, and multicloud"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Distributed, hybrid, and multicloud
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/industry"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Industry solutions"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Industry solutions
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/migration"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Migration"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Migration
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/networking"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Networking"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Networking
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/observability"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Observability and monitoring"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Observability and monitoring
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/security"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Security"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Security
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/storage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Storage"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Storage
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+        
+        
+          
+    
+  
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+          
+        </devsite-book-nav>
+      
+      <section id="gc-wrapper">
+        <main role="main" id="main-content" class="devsite-main-content"
+            
+              has-book-nav
+              has-sidebar
+            >
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav"
+                            role="navigation"
+                            aria-label="On this page"
+                            depth="2"
+                            scrollbars
+                            data-nosnippet
+                  ></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav" data-nosnippet>
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article">
+  
+  
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation" data-nosnippet>
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Google Cloud Documentation"
+      
+    >
+    
+          Home
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail="Documentation"
+      
+    >
+    
+          Documentation
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs/ai-ml"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="3"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="3"
+      
+        track-metadata-eventdetail="AI and ML"
+      
+    >
+    
+          AI and ML
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs/generative-ai"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="4"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="4"
+      
+        track-metadata-eventdetail="Generative AI"
+      
+    >
+    
+          Generative AI
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="5"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="5"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+          Guides
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+    
+      
+    <devsite-thumb-rating position="header">
+    </devsite-thumb-rating>
+  
+    
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Generative AI"
+  product-id="5164350"
+  bucket="Documentation"
+  context=""
+  version="t-devsite-webserver-20260917-r00-rc00.480491409415625998"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    
+      project-icon="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+  <devsite-actions hidden data-nosnippet><devsite-feature-tooltip
+      ack-key="AckCollectionsBookmarkTooltipDismiss"
+      analytics-category="Site-Wide Custom Events"
+      analytics-action-show="Callout Profile displayed"
+      analytics-action-close="Callout Profile dismissed"
+      analytics-label="Create Collection Callout"
+      class="devsite-page-bookmark-tooltip nocontent"
+      data-nosnippet
+      dismiss-button="true"
+      id="devsite-collections-dropdown"
+      
+      dismiss-button-text="Dismiss"
+
+      
+      close-button-text="Got it">
+
+    
+    
+      <devsite-bookmark></devsite-bookmark>
+    
+
+    <span slot="popout-heading">
+      
+      Stay organized with collections
+    </span>
+    <span slot="popout-contents">
+      
+      Save and categorize content based on your preferences.
+    </span>
+  </devsite-feature-tooltip>
+    <devsite-llm-tools></devsite-llm-tools></devsite-actions>
+  
+    
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    >
+  </devsite-toc>
+  
+    
+  <div class="devsite-article-body clearfix
+  devsite-no-page-title">
+
+  
+    
+    
+    
+    <h1 id="generative-ai-glossary" data-text="Generative AI glossary" tabindex="-1">Generative AI glossary</h1>
+  
+
+<p>This glossary defines generative artificial intelligence (AI) terms.</p>
+
+<h2 id="ai-agents" data-text="AI agents" tabindex="-1">AI agents</h2>
+
+<p>An <em>AI agent</em> is an application that achieves a goal by processing input,
+performing reasoning with available tools, and taking actions based on its
+decisions. AI agents use <a href="#function-calling">function calling</a> to format the
+input and ensure precise interactions with external tools. The following diagram
+shows the components of an AI agent:</p>
+
+<p><img src="/static/docs/generative-ai/images/glossary-ai-agents.svg" alt="An AI agent consists of an orchestration layer, a model, and tools."></p>
+
+<p>As shown in the preceding diagram, AI agents consist of the following
+components:</p>
+
+<ul>
+<li><strong>Orchestration</strong>: the orchestration layer of an agent manages memory,
+state, and decision-making by controlling the plan, tool usage, and data
+flow. Orchestration includes the following components:
+<ul>
+<li><strong>Profile and instructions</strong>: the agent takes on a specific role
+or persona to direct its actions and decision-making.</li>
+<li><strong>Memory</strong>: to maintain context and state, the agent retains
+short-term memory and long-term memory. Short-term memory holds the
+immediate context and information that&#39;s necessary for the current
+task. Long-term memory retains the complete conversation history.</li>
+<li><strong>Reasoning and planning</strong>: the agent uses the model to perform
+task decomposition and reflection, and then it creates a plan. First,
+the agent separates the user prompt into sub-components to handle
+complex tasks by calling one or more functions. Next, the agent reflects
+on the function outputs by using reasoning and feedback to improve the
+response.</li>
+</ul></li>
+<li><strong>Model</strong>: any generative language model that processes goals, creates
+plans, and generates responses. For optimal performance, a model should
+support function calling and it should be trained with data signatures from
+tools or reasoning steps.</li>
+<li><strong>Tools</strong>: a collection of tools including APIs, services, or functions
+that fetch data and perform actions or transactions. Tools let agents
+interact with external data and services.</li>
+</ul>
+
+<p>For applications that require autonomous decision-making, complex multi-step
+workflow management, or adaptive experiences, AI agents perform better than
+standard foundational models. Agents excel at solving problems in real-time by
+using external data and at automating knowledge-intensive tasks. These
+capabilities enable an agent to provide more robust results than the passive
+text-generation capabilities of foundational models.</p>
+
+<p>For more information about AI agents, see
+<a href="https://cloud.google.com/discover/what-are-ai-agents" track-type="article" track-name="internalLink" track-metadata-position="body">What is an AI Agent</a>.</p>
+
+<hr/>
+
+<h2 id="context-window" data-text="context window" tabindex="-1">context window</h2>
+
+<p>A <em>context window</em> is the number of <a href="#tokens">tokens</a> that a foundational model
+can process in a given prompt. A larger context window lets the model access and
+process more information, which leads to more coherent, relevant, and
+comprehensive responses.</p>
+
+<p><a href="/vertex-ai/generative-ai/docs/learn/models" track-type="article" track-name="internalLink" track-metadata-position="body">Gemini models</a> 
+are purpose-built with long context windows to handle these larger amounts of
+information. To give a sense of scale, a model with a context window of 1
+million tokens can process any one of the following inputs:</p>
+
+<ul>
+<li>50,000 lines of code (with the standard 80 characters per line)</li>
+<li>All of the text messages that you&#39;ve sent in the last 5 years</li>
+<li>8 average-length English-language novels</li>
+<li>Transcripts of over 200 average-length podcast episodes</li>
+<li>1 hour of video without audio</li>
+<li>Approximately 45 minutes of video with audio</li>
+<li>9.5 hours of audio</li>
+</ul>
+
+<p>For more information about best practices for long context prompting, see
+<a href="/vertex-ai/generative-ai/docs/long-context" track-type="article" track-name="internalLink" track-metadata-position="body">Long context</a>.</p>
+
+<hr/>
+
+<h2 id="embedding" data-text="embedding" tabindex="-1">embedding</h2>
+
+<p>An <em>embedding</em> is a numerical representation of data, such as text, images, or
+videos, that captures relationships between different inputs. Embeddings are
+generated during the training phase of a model by converting text, image, and
+video into arrays of floating point numbers that are called <em>vectors</em>.
+Embeddings often
+<a href="https://en.wikipedia.org/wiki/Dimensionality_reduction" track-type="article" track-name="externalLink" track-metadata-position="body">reduce the dimensionality</a> 
+of data, which helps to enhance computational efficiency and to enable the
+processing of large datasets. This reduction in dimensionality is crucial for
+training and deploying complex models.</p>
+
+<p>Machine learning (ML) models require data to be expressed in a format that they
+can process. Embeddings meet that requirement by mapping data into a continuous
+vector space where closer proximity reflects data points that have similar
+meanings. Embeddings enable models to discern nuanced patterns and relationships
+that would be obscured in raw data.</p>
+
+<p>For example, <a href="#large-language-model">large language models (LLMs)</a> rely on
+embeddings in order to understand the context and meaning of text. That
+understanding lets the LLM generate coherent and relevant responses. In image
+generation, embeddings capture the visual features of images, which enables
+models to create realistic and diverse outputs.</p>
+
+<p>Systems that use
+<a href="#retrieval-augmented-generation">retrieval-augmented generation (RAG)</a> rely on
+embeddings to match user queries with relevant knowledge. When a query is posed,
+it&#39;s converted into an embedding, which is then compared to the embeddings of
+documents that are within the knowledge base. This comparison, which is
+facilitated by similarity searches in the vector space, lets the system
+retrieve the most semantically relevant information.</p>
+
+<p>For more information about embedding models and use cases, see
+<a href="/vertex-ai/generative-ai/docs/embeddings" track-type="article" track-name="internalLink" track-metadata-position="body">Embedding APIs overview</a>.</p>
+
+<hr/>
+
+<h2 id="foundation-model" data-text="foundation model" tabindex="-1">foundation model</h2>
+
+<p><em>Foundation models</em> are large, powerful models that are trained on vast amounts
+of data, which often spans multiple modalities like text, images, video, and
+audio. These models use statistical modeling to predict likely responses to
+<a href="#prompting">prompts</a> and to generate new content. They learn patterns from
+their training data, such as language patterns for text generation and diffusion
+techniques for image generation.</p>
+
+<p>Google offers a variety of
+<a href="/vertex-ai/generative-ai/docs/learn/models" track-type="article" track-name="internalLink" track-metadata-position="body">generative AI foundation models</a> 
+that are accessible through a managed API. To access the foundation models that
+are available in Google Cloud, use the Vertex AI
+<a href="/vertex-ai/generative-ai/docs/model-garden/explore-models" track-type="article" track-name="internalLink" track-metadata-position="body">model garden</a>.</p>
+
+<hr/>
+
+<h2 id="function-calling" data-text="function calling" tabindex="-1">function calling</h2>
+
+<p><em>Function calling</em> is a feature that connects
+<a href="#large-language-model">large language models (LLMs)</a> to external tools like
+APIs and functions to enhance the LLM&#39;s responses. This feature lets LLMs go
+beyond static knowledge and enhance responses with real-time information and
+services like databases, customer relationship management systems, and document
+repositories.</p>
+
+<p>To use function calling, you provide the model with a set of functions. Then,
+when you <a href="#prompting">prompt</a> the model, the model can select and call the
+functions based on your request. The model analyzes the prompt and then it
+generates structured data that specifies which function to call and the
+parameter values. The structured data output calls the function and then it
+returns the results to the model. The model incorporates the results into its
+reasoning to generate a response. This process lets the model access and utilize
+information that&#39;s beyond its internal knowledge, which lets the model perform
+tasks that require external data or processing.</p>
+
+<p>Function calling is a critical component in the architecture of
+<a href="#ai-agents">AI agents</a>. Function calling provides a structured way for the
+model to specify which tool to use and how to format the input, which helps to
+ensure precise interactions with external systems.</p>
+
+<p>For more information about function calling in Gemini, see
+<a href="/vertex-ai/generative-ai/docs/multimodal/function-calling" track-type="article" track-name="internalLink" track-metadata-position="body">Introduction to function calling</a>.</p>
+
+<hr/>
+
+<h2 id="generative-ai" data-text="generative AI" tabindex="-1">generative AI</h2>
+
+<p><em>Generative AI</em> is a type of AI that goes beyond the traditional AI focus on
+<a href="https://developers.google.com/machine-learning/glossary#classification-model" target="dgc" track-type="article" track-name="dgcLink" track-metadata-position="body">classification</a> 
+and
+<a href="https://developers.google.com/machine-learning/glossary#prediction" track-type="article" track-name="internalLink" track-metadata-position="body">prediction</a>.
+Traditional AI models learn from existing data to classify information or to
+predict future outcomes based on historical patterns. Generative AI uses
+<a href="#foundation-model">foundation models</a> to generate new content like text,
+images, audio, or videos. This new content is generated by learning the
+underlying patterns and style of the training data, which effectively lets the
+model create outputs that resemble the data that it was trained on.</p>
+
+<p>Learn more about
+<a href="/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai" track-type="article" track-name="internalLink" track-metadata-position="body">when to use generative AI</a> 
+and
+<a href="/docs/ai-ml/generative-ai/evaluate-define-generative-ai-use-case" track-type="article" track-name="internalLink" track-metadata-position="body">generative AI business use cases</a>.</p>
+
+<hr/>
+
+<h2 id="grounding" data-text="grounding" tabindex="-1">grounding</h2>
+
+<p><em>Grounding</em> is the process of connecting a model&#39;s output to verifiable sources
+of information. These sources might provide practical, context-specific
+information, such as internal company documentation, project-specific data, or
+communication records. Grounding helps to improve the accuracy, reliability, and
+usefulness of AI outputs by providing the model with access to specific data
+sources. Grounding reduces the likelihood of <em>hallucinations</em>—instances where
+the model generates content that isn&#39;t factual. A common type of grounding is
+<a href="#retrieval-augmented-generation">retrieval-augmented generation (RAG)</a>,
+which involves retrieving relevant external information to enhance the model&#39;s
+responses.</p>
+
+<p>For more information about grounding with Google Search, see
+<a href="/vertex-ai/generative-ai/docs/grounding/overview" track-type="article" track-name="internalLink" track-metadata-position="body">Grounding overview</a>.</p>
+
+<hr/>
+
+<h2 id="large-language-model" data-text="large language model (LLM)" tabindex="-1">large language model (LLM)</h2>
+
+<p>A <em>large language model (LLM)</em> is a text-driven foundational model that&#39;s
+trained on a vast amount of data. LLMs are used to perform natural language
+processing (NLP) tasks, such as text generation, machine translation, text
+summarization, and question answering. The term <em>LLM</em> is sometimes used
+interchangeably with <a href="#foundation-model">foundation models</a>. However, LLMs are
+text-based, whereas foundation models can be trained with and receive input from
+multiple modalities, including text, images, audio, and video.</p>
+
+<p>To learn the patterns and relationships within language, LLMs use techniques
+such as
+<a href="https://developers.google.com/machine-learning/glossary#reinforcement_learning" target="dgc" track-type="article" track-name="dgcLink" track-metadata-position="body">reinforcement learning</a> 
+and instruction <a href="#tuning">fine-tuning</a>. When you <a href="#prompting">design prompts</a>,
+it&#39;s important to consider the various factors that can influence the model&#39;s
+responses.</p>
+
+<hr/>
+
+<h2 id="latency" data-text="latency" tabindex="-1">latency</h2>
+
+<p><em>Latency</em> is the time that it takes for a model to process an input prompt and
+generate a response. When you examine the latency of a model, consider the
+following:</p>
+
+<ul>
+<li><strong>Time to First Token (TTFT)</strong>: the time that it takes for the model to
+produce the first token of the response after it receives the prompt. TTFT
+is important for streaming applications where you want immediate feedback.</li>
+<li><strong>Time to Last Token (TTLT)</strong>: the total time that the model takes to
+process the prompt and generate the complete response.</li>
+</ul>
+
+<p>For information about reducing latency, see
+<a href="/vertex-ai/generative-ai/docs/learn/prompt-best-practices" track-type="article" track-name="internalLink" track-metadata-position="body">Best practices with large language models (LLMs)</a>.</p>
+
+<hr/>
+
+<h2 id="prompt-engineering" data-text="prompt engineering" tabindex="-1">prompt engineering</h2>
+
+<p><em>Prompt engineering</em> is the iterative process of creating a prompt and accessing
+the model&#39;s response to get the response that you want. Writing well-structured
+prompts can be an essential part of ensuring accurate, high quality responses
+from a language model.</p>
+
+<p>The following are common techniques that you can use to improve responses:</p>
+
+<ul>
+<li><strong>Zero-shot prompting</strong>: provide a prompt without any examples and rely
+on the model&#39;s pre-existing knowledge.</li>
+<li><strong>One-shot prompting</strong>: provide a single example in the prompt to guide
+the model&#39;s response.</li>
+<li><strong>Few-shot prompting</strong>: provide multiple examples in the prompt to
+demonstrate the pattern or task that you want.</li>
+</ul>
+
+<p>When you provide a model with examples, you help to control aspects of the
+model&#39;s response, such as formatting, phrasing, scope, and overall patterns.
+Effective few-shot prompts combine clear instructions with specific and varied
+examples. It&#39;s important to experiment to determine the optimal number of
+examples; too few examples might not provide enough guidance, but too many
+examples can cause the model to overfit to the examples and fail to generalize
+well.</p>
+
+<p>For more information about best practices for prompting, see
+<a href="/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies" track-type="article" track-name="internalLink" track-metadata-position="body">Overview of prompting strategies</a>.</p>
+
+<hr/>
+
+<h2 id="prompting" data-text="prompting" tabindex="-1">prompting</h2>
+
+<p>A <em>prompt</em> is a natural language request that&#39;s sent to a generative AI model to
+elicit a response. Depending on the model, a prompt can contain text, images,
+videos, audio, documents, and other modalities or even multiple modalities
+(multimodal).</p>
+
+<p>An effective prompt consists of content and structure. Content provides all
+relevant task information, such as instructions, examples, and context.
+Structure ensures efficient parsing through organization, including ordering,
+labeling, and delimiters. Depending on the output that you want, you might
+consider additional
+<a href="/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies#components-of-a-prompt" track-type="article" track-name="internalLink" track-metadata-position="body">components</a>.</p>
+
+<hr/>
+
+<h2 id="model-parameters" data-text="model parameters" tabindex="-1">model parameters</h2>
+
+<p><em>Model parameters</em> are internal variables that a model uses to determine how the
+model processes input data and how it generates outputs. During training, you
+can adjust model parameters, such as weight and bias, to optimize the model&#39;s
+performance. During inference, you can influence the model&#39;s output through
+various prompting parameters, which doesn&#39;t directly change the learned model
+parameters.</p>
+
+<p>The following are some of the prompting parameters that affect content
+generation in the Gemini API in Vertex AI:</p>
+
+<ul>
+<li><a href="/vertex-ai/generative-ai/docs/model-reference/inference#temperature" track-type="article" track-name="internalLink" track-metadata-position="body"><code translate="no" dir="ltr">temperature</code></a>:
+temperature changes the randomness of token selection during response
+generation, which influences the creativity and predictability of the
+output. The value of <code translate="no" dir="ltr">temperature</code> ranges from <code translate="no" dir="ltr">0</code> to <code translate="no" dir="ltr">1</code>. Lower
+temperatures (closer to <code translate="no" dir="ltr">0</code>) produce more deterministic and predictable
+results. Higher temperatures (closer to <code translate="no" dir="ltr">1</code>) generate more diverse and
+creative text, but the results are potentially less coherent.</li>
+<li><a href="/vertex-ai/generative-ai/docs/model-reference/inference#top-p" track-type="article" track-name="internalLink" track-metadata-position="body"><code translate="no" dir="ltr">topP</code></a>:
+Top-P changes how the model samples and selects tokens for output. Top-P
+selects the smallest set of tokens whose cumulative probability exceeds a
+threshold, or <code translate="no" dir="ltr">p</code>, and then samples from that distribution. The value of
+<code translate="no" dir="ltr">topP</code> ranges from <code translate="no" dir="ltr">0</code> to <code translate="no" dir="ltr">1</code>. For example, if tokens A, B, and C have a
+probability of 0.3, 0.2, and 0.1, and the <code translate="no" dir="ltr">topP</code> value is <code translate="no" dir="ltr">0.5</code>, then the
+model will select either A or B as the next token by using temperature, and
+it will exclude C as a candidate.</li>
+<li><a href="/vertex-ai/generative-ai/docs/model-reference/inference#topK" track-type="article" track-name="internalLink" track-metadata-position="body"><code translate="no" dir="ltr">topK</code></a>:
+Top-K changes how the model samples and selects tokens for output. Top-K
+selects the most statistically likely tokens to generate a response. The
+value of <code translate="no" dir="ltr">topK</code> represents a number of tokens from <code translate="no" dir="ltr">1</code> to <code translate="no" dir="ltr">40</code>, which the
+model will choose from before it generates a response. For example, if
+tokens A, B, C, and D have a probability of 0.6, 0.5, 0.2, and 0.1 and the
+top-K value is <code translate="no" dir="ltr">3</code>, then the model will select either A, B, or C as the
+next token by using temperature, and it will exclude D as a candidate.</li>
+<li><a href="/vertex-ai/generative-ai/docs/model-reference/inference#maxOutputTokens" track-type="article" track-name="internalLink" track-metadata-position="body"><code translate="no" dir="ltr">maxOutputTokens</code></a>:
+the <code translate="no" dir="ltr">maxOutputTokens</code> setting changes the maximum number of tokens that can
+be generated in the response. A lower value will generate shorter responses
+and a higher value will generate potentially longer responses.</li>
+</ul>
+
+<p>For more information about sampling parameters in the
+Gemini API in Vertex AI, see
+<a href="/vertex-ai/generative-ai/docs/multimodal/content-generation-parameters" track-type="article" track-name="internalLink" track-metadata-position="body">Content generation parameters</a>.</p>
+
+<hr/>
+
+<h2 id="retrieval-augmented-generation" data-text="retrieval-augmented generation (RAG)" tabindex="-1">retrieval-augmented generation (RAG)</h2>
+
+<p><em>Retrieval-augmented generation (RAG)</em> is a technique to improve the quality
+and accuracy of <a href="#large-language-model">large language model (LLM)</a> output by
+<a href="#grounding">grounding</a> it with sources of knowledge that are retrieved after
+the model was trained. RAG addresses LLM limitations, such as factual
+inaccuracies, lack of access to current or specialized information, and
+inability to cite sources. By providing access to information that&#39;s retrieved
+from trusted knowledge bases or documents—including data that the model wasn&#39;t
+trained on, proprietary data, or sensitive user-specific data—RAG enables LLMs
+to generate more reliable and contextually relevant responses.</p>
+
+<p>When a model that uses RAG receives your prompt, the RAG process completes these
+stages:</p>
+
+<ol>
+<li><strong>Retrieve</strong>: search for data that&#39;s relevant to the prompt.</li>
+<li><strong>Augment</strong>: append the data that&#39;s retrieved to the prompt.</li>
+<li><strong>Generate</strong>:
+<ol>
+<li>Instruct the LLM to create a summary or response that&#39;s based
+on the augmented prompt.</li>
+<li>Serve the response back.</li>
+</ol></li>
+</ol>
+
+<p>For more information about Vertex AI and RAG, see
+<a href="/vertex-ai/generative-ai/docs/rag-overview" track-type="article" track-name="internalLink" track-metadata-position="body">Vertex AI RAG Engine overview</a>.</p>
+
+<hr/>
+
+<h2 id="tokens" data-text="tokens" tabindex="-1">tokens</h2>
+
+<p>A <em>token</em> is a basic unit of data that a foundation model processes. Models
+separate data in a prompt into tokens for processing. The set of all of the
+tokens that are used by a model is called the <em>vocabulary</em>. Tokens can be single
+characters like <code translate="no" dir="ltr">z</code>, whole words like <code translate="no" dir="ltr">cat</code>, or parts from longer words.</p>
+
+<p><em>Tokenizers</em> separate long words—such as complex or technical terms, compound
+words, or words with punctuation and special characters—into several tokens. The
+process of splitting text into tokens is called <em>tokenization</em>. The goal of
+tokenization is to create tokens with semantic meaning that can be recombined to
+understand the original word. For example, the word &quot;predefined&quot; can be split
+into the following tokens: &quot;pre&quot;, &quot;define&quot;, &quot;ed&quot;.</p>
+
+<p>Tokens can represent multimodal input like images, videos, and audio.
+<a href="#embedding">Embedding</a> techniques transform multimodal input into numerical
+representations that the model can process as tokens. The following are the
+approximate token calculations for an example multimodal input, regardless of
+display or file size:</p>
+
+<ul>
+<li>Images: 258 total tokens</li>
+<li>Video: 263 tokens per second</li>
+<li>Audio: 32 tokens per second</li>
+</ul>
+
+<p>Each model has a limit on the number of tokens that it can handle in a prompt
+and response. Additionally, model usage costs are calculated based on the number
+of input and output tokens. For information about how to get the token count of
+a prompt that was sent to a Gemini model, see
+<a href="/vertex-ai/generative-ai/docs/multimodal/list-token" track-type="article" track-name="internalLink" track-metadata-position="body">List and count tokens</a>.
+For information about the cost of generative AI models on
+Vertex AI, see
+<a href="/vertex-ai/generative-ai/pricing" track-type="article" track-name="internalLink" track-metadata-position="body">Vertex AI pricing</a>.</p>
+
+<hr/>
+
+<h2 id="tuning" data-text="tuning" tabindex="-1">tuning</h2>
+
+<p><em>Tuning</em> is the process of adapting a
+<a href="#foundation-model">foundation model</a> to perform specific tasks with greater
+precision and accuracy. Tuning is achieved by adjusting some or all of the
+model&#39;s parameters or training a model on a dataset that contains examples that
+replicate the tasks and results that you want. Tuning is an iterative process,
+which can be complex and costly, but it has the potential to yield significant
+performance improvements. Tuning is most effective when you have a labeled
+dataset that has more than 100 examples, and you want to perform complex or
+unique tasks where <a href="#prompt-engineering">prompting techniques</a> aren&#39;t
+sufficient.</p>
+
+<p>The following are tuning techniques that are supported by
+<a href="https://cloud.google.com/vertex-ai" track-type="article" track-name="internalLink" track-metadata-position="body">Vertex AI</a>:</p>
+
+<ul>
+<li><strong>Full fine-tuning</strong>: a technique that updates all of the model&#39;s parameters
+during the tuning process. Full fine-tuning can be computationally expensive
+and it can require a lot of data, but it also has the potential to achieve
+the highest levels of performance, especially for complex tasks.</li>
+<li><strong>Parameter-efficient tuning</strong>: a technique that&#39;s also known as
+<em>adapter tuning</em>; parameter-efficient tuning updates some of the model&#39;s
+parameters during the tuning process. Parameter-efficient tuning is more
+resource efficient and more cost effective compared to full fine-tuning.</li>
+<li><strong>Supervised fine-tuning</strong>: a technique that trains the model on labeled
+input-output pairs. Supervised fine-tuning is commonly used for tasks that
+involve classification, translation, and summarization.</li>
+</ul>
+
+<p>For more information about tuning, see
+<a href="/vertex-ai/generative-ai/docs/models/tune-models" track-type="article" track-name="internalLink" track-metadata-position="body">Introduction to tuning</a>.</p>
+
+
+  
+  
+
+  
+    <devsite-hats-survey class="nocontent" data-nosnippet
+      hats-id="Nd7nTix2o0eU5NUYprb0ThtUc5jf"
+      listnr-id="83405"></devsite-hats-survey>
+  
+
+  
+</div>
+
+  
+    
+    
+      
+    <devsite-thumb-rating position="footer">
+    </devsite-thumb-rating>
+  
+       
+         <devsite-feedback
+  position="footer"
+  project-name="Generative AI"
+  product-id="5164350"
+  bucket="Documentation"
+  context=""
+  version="t-devsite-webserver-20260917-r00-rc00.480491409415625998"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="footer"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    
+      project-icon="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+       
+    
+    
+  
+
+  <div class="devsite-floating-action-buttons"></div></article>
+
+
+<devsite-content-footer class="nocontent" data-nosnippet>
+  <p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  <p>Last updated 2026-09-22 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Generative AI"
+  product-id="5164350"
+  bucket="Documentation"
+  context=""
+  version="t-devsite-webserver-20260917-r00-rc00.480491409415625998"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    
+      project-icon="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+  
+    <template class="devsite-content-data-template">
+      [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Hard to understand","hardToUnderstand","thumb-down"],["Incorrect information or sample code","incorrectInformationOrSampleCode","thumb-down"],["Missing the information/samples I need","missingTheInformationSamplesINeed","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-09-22 UTC."],[],[]]
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent"
+     aria-label="Footer links"
+     data-nosnippet>
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Products and pricing</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/products/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-metadata-module="footer"track-metadata-position="footer"track-metadata-child_headline="products and pricing"track-type="footer link"track-name="see all products"track-metadata-eventDetail="cloud.google.com/products/">
+            
+          
+            See all products
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/pricing/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-position="footer"track-metadata-module="footer"track-metadata-child_headline="products and pricing"track-metadata-eventDetail="cloud.google.com/pricing/"track-name="google cloud pricing"track-type="footer link">
+            
+          
+            Google Cloud pricing
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/marketplace/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-metadata-eventDetail="cloud.google.com/marketplace/"track-metadata-position="footer"track-metadata-child_headline="resources"track-name="google cloud marketplace"track-type="footer link"track-metadata-module="footer">
+            
+          
+            Google Cloud Marketplace
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/contact/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            track-type="footer link"track-name="contact sales"track-metadata-position="footer"track-metadata-module="footer"track-metadata-child_headline="engage"track-metadata-eventDetail="cloud.google.com/contact/">
+            
+              
+              
+            
+          
+            Contact sales
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Support</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//discuss.google.dev/c/google-cloud/14/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-type="footer link"track-name="google cloud community"target="_blank"track-metadata-child_headline="engage"track-metadata-module="footer"track-metadata-eventDetail="www.googlecloudcommunity.com"track-metadata-position="footer"rel="noopener">
+            
+          
+            Community forums
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/support-hub/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-eventDetail="cloud.google.com/support-hub/"track-metadata-child_headline="resources"track-metadata-position="footer"track-name="support"track-type="footer link"track-metadata-module="footer">
+            
+          
+            Support
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//docs.cloud.google.com/release-notes"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-type="footer link"track-name="release notes"track-metadata-child_headline="resources"track-metadata-eventDetail="cloud.google.com/release-notes/"track-metadata-position="footer"track-metadata-module="footer">
+            
+          
+            Release Notes
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//status.cloud.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            track-type="footer link"track-name="system status"track-metadata-module="footer"track-metadata-position="footer"track-metadata-child_headline="resources"track-metadata-eventDetail="status.cloud.google.com"target="_blank">
+            
+              
+              
+            
+          
+            System status
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Resources</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//github.com/googlecloudPlatform/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-type="footer link"track-name="github"track-metadata-child_headline="resources"track-metadata-module="footer"track-metadata-position="footer"track-metadata-eventDetail="github.com/googlecloudPlatform/">
+            
+          
+            GitHub
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/get-started/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-child_headline="resources"track-metadata-position="footer"track-metadata-module="footer"track-type="footer link"track-name="google cloud quickstarts"track-metadata-eventDetail="cloud.google.com/docs/get-started/">
+            
+          
+            Getting Started with Google Cloud
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/samples"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-metadata-position="footer"track-metadata-module="footer"track-metadata-eventDetail="cloud.google.com/docs/samples"track-type="footer link"track-name="code samples"track-metadata-child_headline="resources">
+            
+          
+            Code samples
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/architecture/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            track-metadata-position="footer"track-metadata-module="footer"track-metadata-child_headline="resources"track-metadata-eventDetail="cloud.google.com/architecture/"track-type="footer link"track-name="cloud architecture center">
+            
+          
+            Cloud Architecture Center
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/learn/training/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            track-metadata-module="footer"track-metadata-eventDetail="cloud.google.com/learn/training/"track-metadata-position="footer"track-name="training"track-type="footer link"track-metadata-child_headline="resources">
+            
+              
+              
+            
+          
+            Training and Certification
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Engage</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/blog/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-metadata-eventDetail="cloud.google.com/blog/"track-metadata-position="footer"track-metadata-module="footer"track-type="footer link"track-name="blog"track-metadata-child_headline="engage">
+            
+          
+            Blog
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/events/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-position="footer"track-type="footer link"track-name="events"track-metadata-eventDetail="cloud.google.com/events/"track-metadata-child_headline="engage"track-metadata-module="footer">
+            
+          
+            Events
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//x.com/googlecloud"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-metadata-position="footer"track-metadata-module="footer"target="_blank"track-metadata-child_headline="engage"track-name="follow on x"track-type="footer link"track-metadata-eventDetail="x.com/googlecloud"rel="noopener">
+            
+          
+            X (Twitter)
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/googlecloud"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            target="_blank"track-metadata-module="footer"track-metadata-position="footer"track-metadata-eventDetail="www.youtube.com/googlecloud"track-name="google cloud on youtube"track-type="footer link"track-metadata-child_headline="engage"rel="noopener">
+            
+          
+            Google Cloud on YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/googlecloudplatform"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            track-type="footer link"track-name="google cloud tech on youtube"track-metadata-eventDetail="www.youtube.com/googlecloudplatform"rel="noopener"target="_blank"track-metadata-module="footer"track-metadata-position="footer"track-metadata-child_headline="engage">
+            
+              
+              
+            
+          
+            Google Cloud Tech on YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent" data-nosnippet>
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        
+        <source srcset="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup-google-for-developers-dark-theme.svg"
+                media="(prefers-color-scheme: none)"
+                class="devsite-dark-theme">
+        
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup-google-for-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://developer.android.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Android Developers Link"
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://developer.chrome.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Chrome Link"
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://firebase.google.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Firebase Link"
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://ai.google.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Google AI Link"
+         >
+          Google AI
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//about.google/"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer About Google link"
+         
+           track-metadata-eventDetail="//about.google/"
+         
+           target="_blank"
+         
+           track-metadata-module="utility footer"
+         
+           track-type="footer link"
+         
+           track-name="about google"
+         
+           track-metadata-position="footer"
+         >
+          About Google
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-privacy-link">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-position="footer"
+         
+           track-metadata-eventDetail="//policies.google.com/privacy"
+         
+           target="_blank"
+         
+           track-type="footer link"
+         
+           track-name="privacy"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/terms?hl=en"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Site terms link"
+         
+           track-type="footer link"
+         
+           track-name="site terms"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-position="footer"
+         
+           track-metadata-eventDetail="//www.google.com/intl/en/policies/terms/regional.html"
+         
+           target="_blank"
+         >
+          Site terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//cloud.google.com/product-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Google Cloud terms link"
+         
+           track-metadata-module="utility footer"
+         
+           track-name="google cloud terms"
+         
+           track-type="footer link"
+         
+           track-metadata-position="footer"
+         
+           track-metadata-eventDetail="//cloud.google.com/product-terms"
+         >
+          Google Cloud terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           track-metadata-position="footer"
+         
+           aria-hidden="true"
+         
+           track-name="Manage cookies"
+         
+           track-type="footer link"
+         
+           track-metadata-eventDetail="#"
+         
+           track-metadata-module="utility footer"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-carbon-button">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//cloud.google.com/sustainability"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Our third decade of climate action: join us link"
+         
+           track-type="footer link"
+         
+           track-name="Our third decade of climate action: join us"
+         
+           track-metadata-position="footer"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-eventDetail="/sustainability/"
+         >
+          Our third decade of climate action: join us
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+        
+        <span class="devsite-footer-utility-description">Sign up for the Google Cloud newsletter</span>
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//cloud.google.com/newsletter/"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link"
+         
+           track-metadata-eventDetail="/newsletter/"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-position="footer"
+         
+           track-name="subscribe"
+         
+           track-type="footer link"
+         >
+          Subscribe
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt"
+        >Português</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel>
+          
+        </devsite-panel>
+        
+      </section>
+      </section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar></devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics>
+      
+        <script type="application/json" analytics>[]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;True&#34;, &#34;ga4&#34;: [], &#34;ga4p&#34;: [], &#34;gtm&#34;: [{&#34;id&#34;: &#34;GTM-5CVQBG&#34;, &#34;purpose&#34;: 1}], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;en&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;Generative AI&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;clouddocs&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    
+<cloudx-user></cloudx-user>
+
+
+
+
+  
+    <cloudx-free-trial-eligible-store freeTrialEligible="true"></cloudx-free-trial-eligible-store>
+  
+
+    
+<script nonce="jiw09Z9Bh8xt1YJki44hKl81EstH9u">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/js/app_loader.js', '[39,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c","https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs","https://clouddocs-dot-devsite-v2-prod.appspot.com",null,null,["/_pwa/clouddocs/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/favicons/onecloud/favicon.ico","https://www.gstatic.com/devrel-devsite/prod/v01e820f11dab21f3ca0f6bae75161414eea27d2d73afb4b420c81b7d54dc150c/clouddocs/images/lockup_full_color.svg","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","docs.cloud.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["Profiles__enable_complete_playlist_endpoint","Profiles__enable_awarding_url","CloudShell__cloud_code_overflow_menu","BookNav__enable_tenant_cache_key","DevPro__enable_google_payments_buyflow","MiscFeatureFlags__enable_firebase_utm","Profiles__enable_developer_profile_pages_as_content","Search__enable_dynamic_content_confidential_banner","Profiles__enable_callout_notifications","Profiles__enable_completequiz_endpoint","Concierge__enable_pushui","DevPro__enable_embed_profile_creation","Cloud__enable_cloud_dlp_service","Profiles__enable_dashboard_curated_recommendations","Analytics__enable_clearcut_logging","MiscFeatureFlags__enable_view_transitions","Profiles__enable_developer_profile_benefits_ui_redesign","MiscFeatureFlags__enable_appearance_cookies","CloudShell__cloud_shell_button","DevPro__enable_devpro_offers","Cloud__fast_free_trial","Profiles__enable_purchase_prompts","MiscFeatureFlags__enable_variable_operator_index_yaml","Profiles__enable_targeted_hero","DevPro__enable_free_benefits","MiscFeatureFlags__enable_dark_theme","EngEduTelemetry__enable_engedu_telemetry","Concierge__enable_concierge_restricted","TpcFeatures__proxy_prod_host","Profiles__enable_auto_apply_credits","DevPro__enable_code_assist","Search__enable_page_map","Profiles__enable_public_developer_profiles","Cloud__enable_cloudx_experiment_ids","Search__enable_suggestions_from_borg","DevPro__enable_developer_subscriptions","DevPro__enable_cloud_innovators_plus","AIStudioInteractionsToggle__interactions_are_default","DevPro__enable_g1_ineligible_redirect","Profiles__enable_stripe_subscription_management","DevPro__enable_payments_init","MiscFeatureFlags__enable_project_variables","SignIn__enable_l1_signup_flow","Profiles__enable_completecodelab_endpoint","Concierge__enable_actions_menu","Analytics__enable_devpro_interaction_logging","Concierge__enable_remove_info_panel_tags","OnSwitch__enable","Cloud__enable_free_trial_server_call","Experiments__reqs_query_experiments","DevPro__enable_g1_integration","Profiles__enable_developer_profiles_callout","MiscFeatureFlags__fix_lower_breadcrumbs","Profiles__enable_user_type","DevPro__enable_credits_banner","DevPro__enable_devsite_captcha","MiscFeatureFlags__remove_cross_domain_tracking_params","DevPro__enable_enterprise","DevPro__enable_google_one_card","Search__enable_ai_eligibility_checks","Profiles__enable_profile_collections","DevPro__remove_eu_tax_intake_form","MiscFeatureFlags__enable_explicit_template_dependencies","Profiles__enable_recognition_badges","Profiles__enable_join_program_group_endpoint","Profiles__enable_page_saving","Cloud__enable_legacy_calculator_redirect","MiscFeatureFlags__gdp_dashboard_reskin_enabled","Concierge__enable_devsite_llm_tools","DevPro__enable_vertex_credit_card","MiscFeatureFlags__developers_footer_image","Cloud__enable_cloud_shell","MiscFeatureFlags__enable_variable_operator","Cloud__cache_serialized_dynamic_content","Search__enable_ai_search_summaries_for_all","DevPro__enable_firebase_workspaces_card","MiscFeatureFlags__enable_framebox_badge_methods","TpcFeatures__enable_unmirrored_page_left_nav","DevPro__enable_nvidia_credits_card","Cloud__enable_cloud_shell_fte_user_flow","Profiles__enable_playlist_community_acl","MiscFeatureFlags__developers_footer_dark_image","MiscFeatureFlags__enable_explain_this_code","Profiles__require_profile_eligibility_for_signin"],null,null,"AIzaSyBLEMok-5suZ67qRPzx0qUtbnLmyT_kCVE","https://developerscontentserving-pa.clients6.google.com","AIzaSyCM4QpTRSqP5qI4Dvjt4OAScIN8sOUlO-k","https://developerscontentsearch-pa.clients6.google.com",1,4,1,"https://developerprofiles-pa.clients6.google.com",[39,"clouddocs","Google Cloud Documentation","docs.cloud.google.com",null,"clouddocs-dot-devsite-v2-prod.appspot.com",null,null,[1,1,null,null,null,null,null,null,null,null,null,[1],null,null,null,null,null,1,[1],[null,null,null,[1,20],"/terms/recommendations"],[1],null,[1],[1,null,1],null,[1]],null,[54,null,null,null,null,null,"/images/lockup_full_color.svg","/images/favicons/onecloud/apple-icon.png",null,null,null,1,1,1,1,null,[],null,null,[[],[],[],[],[],[],[],[]],null,1,null,null,null,"/images/lockup_dark_theme.svg",[]],[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[6,1,14,15,22,23,29,37],null,[[null,null,null,null,null,null,[1,[["docType","Choose a content type",[["ApiReference",null,null,null,null,null,null,null,null,"API reference"],["Sample",null,null,null,null,null,null,null,null,"Code sample"],["ReferenceArchitecture",null,null,null,null,null,null,null,null,"Reference architecture"],["Tutorial",null,null,null,null,null,null,null,null,"Tutorial"]]],["category","Choose a topic",[["AiAndMachineLearning",null,null,null,null,null,null,null,null,"Artificial intelligence and machine learning (AI/ML)"],["ApplicationDevelopment",null,null,null,null,null,null,null,null,"Application development"],["BigDataAndAnalytics",null,null,null,null,null,null,null,null,"Big data and analytics"],["Compute",null,null,null,null,null,null,null,null,"Compute"],["Containers",null,null,null,null,null,null,null,null,"Containers"],["Databases",null,null,null,null,null,null,null,null,"Databases"],["HybridCloud",null,null,null,null,null,null,null,null,"Hybrid and multicloud"],["LoggingAndMonitoring",null,null,null,null,null,null,null,null,"Logging and monitoring"],["Migrations",null,null,null,null,null,null,null,null,"Migrations"],["Networking",null,null,null,null,null,null,null,null,"Networking"],["SecurityAndCompliance",null,null,null,null,null,null,null,null,"Security and compliance"],["Serverless",null,null,null,null,null,null,null,null,"Serverless"],["Storage",null,null,null,null,null,null,null,null,"Storage"]]]]]],[1],null,1],[[null,null,null,null,null,["GTM-5CVQBG"],null,null,null,null,null,[["GTM-5CVQBG",2]],1],null,null,null,null,null,1],"mwETRvWii0eU5NUYprb0Y9z5GVbc",4],null,"pk_live_5170syrHvgGVmSx9sBrnWtA5luvk9BwnVcvIi7HizpwauFG96WedXsuXh790rtij9AmGllqPtMLfhe2RSwD6Pn38V00uBCydV4m",1,1,"https://developerscontentinsights-pa.clients6.google.com","AIzaSyCg-ZUslalsEbXMfIo9ZP8qufZgo3LSBDU","AIzaSyDxT0vkxnY_KeINtA4LSePJO-4MAZPMRsE","https://developers.clients6.google.com",null,null,"AIzaSyBQom12tzI-rybN7Sf-KfeL4nwm-Rf7PmI\n",null,null,"https://developers.googleapis.com"]')
+  
+</script>
+
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

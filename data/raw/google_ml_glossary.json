@@ -1,0 +1,2630 @@
+[
+  {
+    "term": "accelerator chip",
+    "definition": "#GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "accuracy",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "act",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "action",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "action space",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "activation function",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "adaptation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "agent",
+    "definition": "#generativeAI #agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "agentic",
+    "definition": "#generativeAI #agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "agentic loop",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "agentic workflow",
+    "definition": "#generativeAI #agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "agent orchestration",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "agglomerative clustering",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "AI slop",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "area under the PR curve",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "area under the ROC curve",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "artificial intelligence",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "attribute",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "attribute sampling",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "AUC (Area under the ROC curve)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "automatic evaluation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "automation bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "autonomous agent",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "autorater evaluation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "auto-regressive model",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "average precision at k",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "axis-aligned condition",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "backpropagation",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "bagging",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "baseline",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "base model",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "batch",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "batch inference",
+    "definition": "#GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "batch size",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "bias (ethics/fairness)",
+    "definition": "#responsible #fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "bias (math) or bias term",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "binary classification",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "binary condition",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Boolean Questions (BoolQ)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "BoolQ",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "bucketing",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "categorical data",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "CB",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "centroid",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "centroid-based clustering",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "chain-of-thought prompting",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Character N-gram F-score (ChrF)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "chat",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Choice of Plausible Alternatives (COPA)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "class",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "classification model",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "classification threshold",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "classifier",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "class-imbalanced dataset",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "clipping",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Cloud TPU",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "clustering",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "CommitmentBank (CB)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "condition",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "confirmation bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "confusion matrix",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "contextualized language embedding",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "context window",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "continuous feature",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "convergence",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "conversational coding",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "COPA",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "cost",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "counterfactual fairness",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "coverage bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "cross-entropy",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "cumulative distribution function (CDF)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "DataFrame",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Dataset API (tf.data)",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "data set or dataset",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "decision forest",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "decision tree",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "deep model",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "demographic parity",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "dense feature",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "depth",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "device",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "direct prompting",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "discrete feature",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "disparate impact",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "disparate treatment",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "distillation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "divisive clustering",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "dynamic",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "dynamic model",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "eager execution",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "early stopping",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "earth mover's distance (EMD)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "edit distance",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "embedding layer",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "empirical cumulative distribution function (eCDF or EDF)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "entropy",
+    "definition": "#df #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "epoch",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "equality of opportunity",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "equalized odds",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Estimator",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "evals",
+    "definition": "#generativeAI #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "evaluation",
+    "definition": "#generativeAI #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "evaluator agent",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "exact match",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "example",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "experimenter's bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Extreme Summarization (xsum)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "F 1",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "factuality",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "fairness constraint",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "fairness metric",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "false negative (FN)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "false negative rate",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "false positive (FP)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "false positive rate (FPR)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "fast decay",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature cross",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature engineering",
+    "definition": "#fundamentals #TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature importances",
+    "definition": "#df #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature set",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature spec",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feature vector",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feedback",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "feedback loop",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "few-shot prompting",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "fine-tuning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Flash model",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "foundation model",
+    "definition": "#generativeAI #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "fraction of successes",
+    "definition": "#generativeAI #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Gemini",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Gemini models",
+    "definition": "#generativeAI #agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Gemma",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "GenAI or genAI",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "generalization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "generalization curve",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "generated text",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "generative agents (simulacra)",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "generative AI",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "gini impurity",
+    "definition": "#df #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "golden response",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "GPT (Generative Pre-trained Transformer)",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "gradient boosted (decision) trees (GBT)",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "gradient boosting",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "gradient descent",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "graph",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "graph execution",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ground truth",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "group attribution bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "hallucination",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "hidden layer",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "hierarchical clustering",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "hinge loss",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "historical bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "host",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "human evaluation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "human in the loop (HITL)",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "hyperparameter",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "implicit bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "incompatibility of fairness metrics",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "in-context learning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "independently and identically distributed (i.i.d)",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "individual fairness",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "inference",
+    "definition": "#fundamentals #generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "inference path",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "information gain",
+    "definition": "#df #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "in-group bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "input layer",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "in-set condition",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "instruction tuning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "interpretability",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "inter-rater agreement",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "iteration",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "k-means",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "k-median",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "L 0 regularization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "L 1 loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "L 1 regularization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "L 2 loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "L 2 regularization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "label",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "labeled example",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "lambda",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "large language model",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "latency",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "layer",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Layers API (tf.layers)",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "leaf",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "learning rate",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Levenshtein Distance",
+    "definition": "#metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "linear",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "linear model",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "linear regression",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "LLM",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "LLM evaluations (evals)",
+    "definition": "#generativeAI #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "logistic regression",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Log Loss",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "log-odds",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "LoRA",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "loss curve",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "loss function",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Low-Rank Adaptability (LoRA)",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "machine learning",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "machine translation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "majority class",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "manager agent",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "MBPP",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Mean Absolute Error (MAE)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "mean average precision at k (mAP@k)",
+    "definition": "#generativeAI #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Mean Squared Error (MSE)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "mesh",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "metric",
+    "definition": "#TensorFlow #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Metrics API (tf.metrics)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "mini-batch",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "minimax loss",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "minority class",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "mixture of experts",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "MMIT",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "model",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "model capacity",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "model cascading",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "model router",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "MOE",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Mostly Basic Python Problems (MBPP)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "MT",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "multi-agent collaboration",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "multi-class classification",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Nano",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "negative class",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "neural network",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "neuron",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "node (decision tree)",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "node (neural network)",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "node (TensorFlow graph)",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "non-binary condition",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "nonlinear",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "non-response bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "nonstationarity",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "no one right answer (NORA)",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "NORA",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "normalization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Notebook LM",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "numerical data",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "objective",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "objective function",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "oblique condition",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "observe",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "offline",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "offline inference",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "one-hot encoding",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "one right answer (ORA)",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "one-shot prompting",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "one-vs.-all",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "online",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "online inference",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "operation (op)",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ORA",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "out-group homogeneity bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "out-of-bag evaluation (OOB evaluation)",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "output layer",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "overfitting",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "pandas",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "parameter",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "parameter-efficient tuning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Parameter Server (PS)",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "participation bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "pass at k (pass@k)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Pax",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "performance",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "permutation variable importances",
+    "definition": "#df #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "perplexity",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "plan-and-solve",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "PLM",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "plugin",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "positive class",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "post-processing",
+    "definition": "#responsible #fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "post-trained model",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "PR AUC (area under the PR curve)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "precision",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "precision at k (precision@k)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "precision-recall curve",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prediction",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prediction bias",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "predictive parity",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "predictive rate parity",
+    "definition": "#responsible #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "preprocessing",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "pre-trained model",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "pre-training",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Pro",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "probability density function",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "procedural memory",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prompt",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prompt-based learning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prompt design",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prompt engineering",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prompt set",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "prompt tuning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "provenance",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "proxy (sensitive attributes)",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "proxy labels",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "queue",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "RAG",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "random forest",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "rank (Tensor)",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "rater",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "RealToxicityPrompts",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "reason",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "recall",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "recall at k (recall@k)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Recognizing Textual Entailment (RTE)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ReCoRD",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Rectified Linear Unit (ReLU)",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "reference text",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "reflection",
+    "definition": "#generativeAI #agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "regression model",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "regularization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "regularization rate",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Reinforcement Learning from Human Feedback (RLHF)",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ReLU",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "reporting bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "response",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "response set",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "retrieval-augmented generation (RAG)",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ROC (receiver operating characteristic) Curve",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "role prompting",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "root",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "root directory",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Root Mean Squared Error (RMSE)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ROUGE (Recall-Oriented Understudy for Gisting Evaluation)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ROUGE-L",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ROUGE-N",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "ROUGE-S",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "router agent",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "R-squared",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "RTE",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sampling bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sampling with replacement",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "SavedModel",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Saver",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "scoring",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "selection bias",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "self-correction",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sensitive attribute",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "shard",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "shrinkage",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sigmoid function",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "similarity measure",
+    "definition": "#clustering #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sketching",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "softmax",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "soft prompt tuning",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sparse feature",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sparse representation",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sparse vector",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sparsity",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "specificational coding",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "split",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "splitter",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "SQuAD",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "squared hinge loss",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "squared loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "state",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "state machine agent",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "static",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "static inference",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "stationarity",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "stochastic gradient descent (SGD)",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "sub-agent",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "summary",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "SuperGLUE",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "supervised machine learning",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "synthetic feature",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "temperature",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Tensor",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TensorBoard",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TensorFlow",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TensorFlow Playground",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TensorFlow Serving",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Tensor Processing Unit (TPU)",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Tensor rank",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Tensor shape",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Tensor size",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "termination condition",
+    "definition": "#agent",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "test",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "test loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "tf.Example",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "tf.keras",
+    "definition": "#TensorFlow",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "threshold (for decision trees)",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "time series analysis",
+    "definition": "#clustering",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "top-k accuracy",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "toxicity",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU chip",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU device",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU node",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU Pod",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU resource",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU slice",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU type",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "TPU worker",
+    "definition": "#TensorFlow #GoogleCloud",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "training",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "training loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "training-serving skew",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "training set",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Trivia Question Answering",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "true negative (TN)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "true positive (TP)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "true positive rate (TPR)",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Typologically Diverse Question Answering (TyDi QA)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Ultra",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "unawareness (to a sensitive attribute)",
+    "definition": "#responsible",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "underfitting",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "unlabeled example",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "unsupervised machine learning",
+    "definition": "#clustering #fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "unsupported-claim rate (UCR)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "validation",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "validation loss",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "validation set",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "variable importances",
+    "definition": "#df #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Vertex",
+    "definition": "#GoogleCloud #generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "vibe coding",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Wasserstein loss",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "weight",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "weighted sum",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "WiC",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "WikiLingua (wiki_lingua)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Winograd Schema Challenge (WSC)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "wisdom of the crowd",
+    "definition": "#df",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Words in Context (WiC)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "WSC",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "XL-Sum (xlsum)",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "zero-shot prompting",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Z-score normalization",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Engage",
+    "definition": "Google Developer Program Google Developer Groups Google Developer Experts Accelerators Google Cloud & NVIDIA",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Connect",
+    "definition": "Blog Bluesky Instagram LinkedIn X (Twitter) YouTube",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  },
+  {
+    "term": "Build",
+    "definition": "Android Chrome Firebase Google AI Studio Google Antigravity Google Cloud Google Play View all",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary"
+  }
+]

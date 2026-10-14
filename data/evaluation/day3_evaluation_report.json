@@ -1,0 +1,293 @@
+{
+  "project": "WordLens",
+  "day": 3,
+  "evaluation": "Final Day 3 Evaluation",
+  "created_at": "2026-09-24T11:49:51.943050+00:00",
+  "configuration": {
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "top_k": 5,
+    "minimum_score": 0.45
+  },
+  "dataset": {
+    "loaded_records": 160,
+    "accepted_active_records": 160,
+    "source": "data/processed/technical_terms.json"
+  },
+  "retrieval": {
+    "positive_case_count": 30,
+    "alias_case_count": 0,
+    "hyphen_space_case_count": 10,
+    "negative_case_count": 10,
+    "metrics": {
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "exact_term_accuracy": 1.0,
+      "alias_recall": null,
+      "hyphen_space_recall": 1.0,
+      "negative_abstention_accuracy": 1.0
+    },
+    "per_subdomain": {
+      "evaluation": {
+        "count": 4,
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0
+      },
+      "foundations": {
+        "count": 16,
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0
+      },
+      "prompting_inference": {
+        "count": 4,
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0
+      },
+      "representation_context": {
+        "count": 1,
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0
+      },
+      "training_alignment": {
+        "count": 3,
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0
+      },
+      "transformer_llm": {
+        "count": 2,
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0
+      }
+    },
+    "failures": []
+  },
+  "rag": {
+    "positive_case_count": 15,
+    "negative_case_count": 5,
+    "positive_passes": 15,
+    "positive_accuracy": 1.0,
+    "negative_passes": 5,
+    "negative_accuracy": 1.0,
+    "overall_accuracy": 1.0,
+    "positive_cases": [
+      {
+        "term": "attention",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "attention: A mechanism used in a neural network that indicates the importance of a particular word or part of a word. Attention compresses the amount of information a model needs to predict the next token/word. A typical attention mechanism might consist of a weighted sum over a set of inputs, where the weight for each input is computed by another part of the neural network. Refer also to self-attention and multi-head self-attention , which are the building blocks of Transformers . See LLMs: What's a large language model? in Machine Learning Crash Course for more information about self-attention.",
+        "canonical_definition": "A mechanism used in a neural network that indicates the importance of a particular word or part of a word. Attention compresses the amount of information a model needs to predict the next token/word. A typical attention mechanism might consist of a weighted sum over a set of inputs, where the weight for each input is computed by another part of the neural network. Refer also to self-attention and multi-head self-attention , which are the building blocks of Transformers . See LLMs: What's a large language model? in Machine Learning Crash Course for more information about self-attention.",
+        "top_score": 0.737998
+      },
+      {
+        "term": "Transformer",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "Transformer: A neural network architecture developed at Google that relies on self-attention mechanisms to transform a sequence of input embeddings into a sequence of output embeddings without relying on convolutions or recurrent neural networks . A Transformer can be viewed as a stack of self-attention layers. A Transformer can include any of the following: An encoder transforms a sequence of embeddings into a new sequence of the same length. An encoder includes N identical layers, each of which contains two sub-layers. These two sub-layers are applied at each position of the input embedding sequence, transforming each element of the sequence into a new embedding. The first encoder sub-layer aggregates information from across the input sequence. The second encoder sub-layer transforms the aggregated information into an output embedding. A decoder transforms a sequence of input embeddings into a sequence of output embeddings, possibly with a different length. A decoder also includes N identical layers with three sub-layers, two of which are similar to the encoder sub-layers. The third decoder sub-layer takes the output of the encoder and applies the self-attention mechanism to gather information from it. The blog post Transformer: A Novel Neural Network Architecture for Language Understanding provides a good introduction to Transformers. See LLMs: What's a large language model? in Machine Learning Crash Course for more information.",
+        "canonical_definition": "A neural network architecture developed at Google that relies on self-attention mechanisms to transform a sequence of input embeddings into a sequence of output embeddings without relying on convolutions or recurrent neural networks . A Transformer can be viewed as a stack of self-attention layers. A Transformer can include any of the following: An encoder transforms a sequence of embeddings into a new sequence of the same length. An encoder includes N identical layers, each of which contains two sub-layers. These two sub-layers are applied at each position of the input embedding sequence, transforming each element of the sequence into a new embedding. The first encoder sub-layer aggregates information from across the input sequence. The second encoder sub-layer transforms the aggregated information into an output embedding. A decoder transforms a sequence of input embeddings into a sequence of output embeddings, possibly with a different length. A decoder also includes N identical layers with three sub-layers, two of which are similar to the encoder sub-layers. The third decoder sub-layer takes the output of the encoder and applies the self-attention mechanism to gather information from it. The blog post Transformer: A Novel Neural Network Architecture for Language Understanding provides a good introduction to Transformers. See LLMs: What's a large language model? in Machine Learning Crash Course for more information.",
+        "top_score": 0.76839
+      },
+      {
+        "term": "overfitting",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "overfitting: Creating a model that matches the training data so closely that the model fails to make correct predictions on new data. Regularization can reduce overfitting. Training on a large and diverse training set can also reduce overfitting. See Overfitting in Machine Learning Crash Course for more information.",
+        "canonical_definition": "Creating a model that matches the training data so closely that the model fails to make correct predictions on new data. Regularization can reduce overfitting. Training on a large and diverse training set can also reduce overfitting. See Overfitting in Machine Learning Crash Course for more information.",
+        "top_score": 0.751687
+      },
+      {
+        "term": "generalization",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "generalization: A model's ability to make correct predictions on new, previously unseen data. A model that can generalize is the opposite of a model that is overfitting . See Generalization in Machine Learning Crash Course for more information.",
+        "canonical_definition": "A model's ability to make correct predictions on new, previously unseen data. A model that can generalize is the opposite of a model that is overfitting . See Generalization in Machine Learning Crash Course for more information.",
+        "top_score": 0.805666
+      },
+      {
+        "term": "one-shot learning",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "one-shot learning: A machine learning approach, often used for object classification, designed to learn effective classification model from a single training example. See also few-shot learning and zero-shot learning .",
+        "canonical_definition": "A machine learning approach, often used for object classification, designed to learn effective classification model from a single training example. See also few-shot learning and zero-shot learning .",
+        "top_score": 0.814899
+      },
+      {
+        "term": "machine learning",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "machine learning: A program or system that trains a model from input data. The trained model can make useful predictions from new (never-before-seen) data drawn from the same distribution as the one used to train the model. Machine learning also refers to the field of study concerned with these programs or systems. See the Introduction to Machine Learning course for more information.",
+        "canonical_definition": "A program or system that trains a model from input data. The trained model can make useful predictions from new (never-before-seen) data drawn from the same distribution as the one used to train the model. Machine learning also refers to the field of study concerned with these programs or systems. See the Introduction to Machine Learning course for more information.",
+        "top_score": 0.811017
+      },
+      {
+        "term": "artificial intelligence",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "artificial intelligence: A non-human program or model that can solve sophisticated tasks. For example, a program or model that translates text or a program or model that identifies diseases from radiologic images both exhibit artificial intelligence. Formally, machine learning is a sub-field of artificial intelligence. However, in recent years, some organizations have begun using the terms artificial intelligence and machine learning interchangeably.",
+        "canonical_definition": "A non-human program or model that can solve sophisticated tasks. For example, a program or model that translates text or a program or model that identifies diseases from radiologic images both exhibit artificial intelligence. Formally, machine learning is a sub-field of artificial intelligence. However, in recent years, some organizations have begun using the terms artificial intelligence and machine learning interchangeably.",
+        "top_score": 0.811161
+      },
+      {
+        "term": "neural network",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "neural network: A model containing at least one hidden layer . A deep neural network is a type of neural network containing more than one hidden layer. For example, the following diagram shows a deep neural network containing two hidden layers. Each neuron in a neural network connects to all of the nodes in the next layer. For example, in the preceding diagram, notice that each of the three neurons in the first hidden layer separately connect to both of the two neurons in the second hidden layer. Neural networks implemented on computers are sometimes called artificial neural networks to differentiate them from neural networks found in brains and other nervous systems. Some neural networks can mimic extremely complex nonlinear relationships between different features and the label. See also convolutional neural network and recurrent neural network . See Neural networks in Machine Learning Crash Course for more information.",
+        "canonical_definition": "A model containing at least one hidden layer . A deep neural network is a type of neural network containing more than one hidden layer. For example, the following diagram shows a deep neural network containing two hidden layers. Each neuron in a neural network connects to all of the nodes in the next layer. For example, in the preceding diagram, notice that each of the three neurons in the first hidden layer separately connect to both of the two neurons in the second hidden layer. Neural networks implemented on computers are sometimes called artificial neural networks to differentiate them from neural networks found in brains and other nervous systems. Some neural networks can mimic extremely complex nonlinear relationships between different features and the label. See also convolutional neural network and recurrent neural network . See Neural networks in Machine Learning Crash Course for more information.",
+        "top_score": 0.798582
+      },
+      {
+        "term": "embedding",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "embedding: An embedding is a numerical representation of data, such as text, images, or videos, that captures relationships between different inputs. Embeddings are generated during the training phase of a model by converting text, image, and video into arrays of floating point numbers that are called vectors . Embeddings often reduce the dimensionality of data, which helps to enhance computational efficiency and to enable the processing of large datasets. This reduction in dimensionality is crucial for training and deploying complex models. Machine learning (ML) models require data to be expressed in a format that they can process. Embeddings meet that requirement by mapping data into a continuous vector space where closer proximity reflects data points that have similar meanings. Embeddings enable models to discern nuanced patterns and relationships that would be obscured in raw data. For example, large language models (LLMs) rely on embeddings in order to understand the context and meaning of text. That understanding lets the LLM generate coherent and relevant responses. In image generation, embeddings capture the visual features of images, which enables models to create realistic and diverse outputs. Systems that use retrieval-augmented generation (RAG) rely on embeddings to match user queries with relevant knowledge. When a query is posed, it's converted into an embedding, which is then compared to the embeddings of documents that are within the knowledge base. This comparison, which is facilitated by similarity searches in the vector space, lets the system retrieve the most semantically relevant information. For more information about embedding models and use cases, see Embedding APIs overview .",
+        "canonical_definition": "An embedding is a numerical representation of data, such as text, images, or videos, that captures relationships between different inputs. Embeddings are generated during the training phase of a model by converting text, image, and video into arrays of floating point numbers that are called vectors . Embeddings often reduce the dimensionality of data, which helps to enhance computational efficiency and to enable the processing of large datasets. This reduction in dimensionality is crucial for training and deploying complex models. Machine learning (ML) models require data to be expressed in a format that they can process. Embeddings meet that requirement by mapping data into a continuous vector space where closer proximity reflects data points that have similar meanings. Embeddings enable models to discern nuanced patterns and relationships that would be obscured in raw data. For example, large language models (LLMs) rely on embeddings in order to understand the context and meaning of text. That understanding lets the LLM generate coherent and relevant responses. In image generation, embeddings capture the visual features of images, which enables models to create realistic and diverse outputs. Systems that use retrieval-augmented generation (RAG) rely on embeddings to match user queries with relevant knowledge. When a query is posed, it's converted into an embedding, which is then compared to the embeddings of documents that are within the knowledge base. This comparison, which is facilitated by similarity searches in the vector space, lets the system retrieve the most semantically relevant information. For more information about embedding models and use cases, see Embedding APIs overview .",
+        "top_score": 0.861084
+      },
+      {
+        "term": "inference",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "inference: In traditional machine learning, the process of making predictions by applying a trained model to unlabeled examples . See Supervised Learning in the Intro to ML course to learn more. In large language models , inference is the process of using a trained model to generate a response to an input prompt . Inference has a somewhat different meaning in statistics. See the Wikipedia article on statistical inference for details.",
+        "canonical_definition": "In traditional machine learning, the process of making predictions by applying a trained model to unlabeled examples . See Supervised Learning in the Intro to ML course to learn more. In large language models , inference is the process of using a trained model to generate a response to an input prompt . Inference has a somewhat different meaning in statistics. See the Wikipedia article on statistical inference for details.",
+        "top_score": 0.819026
+      },
+      {
+        "term": "automatic evaluation",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "automatic evaluation: Using software to judge the quality of a model's output. When model output is relatively straightforward, a script or program can compare the model's output to a golden response . This type of automatic evaluation is sometimes called programmatic evaluation . Metrics such as ROUGE or BLEU are often useful for programmatic evaluation. When model output is complex or has no one right answer , a separate ML program called an autorater sometimes performs the automatic evaluation. Contrast with human evaluation .",
+        "canonical_definition": "Using software to judge the quality of a model's output. When model output is relatively straightforward, a script or program can compare the model's output to a golden response . This type of automatic evaluation is sometimes called programmatic evaluation . Metrics such as ROUGE or BLEU are often useful for programmatic evaluation. When model output is complex or has no one right answer , a separate ML program called an autorater sometimes performs the automatic evaluation. Contrast with human evaluation .",
+        "top_score": 0.796026
+      },
+      {
+        "term": "evaluation",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "evaluation: The process of measuring a model's quality or comparing different models against each other. To evaluate a supervised machine learning model, you typically judge it against a validation set and a test set . Evaluating a LLM typically involves broader quality and safety assessments.",
+        "canonical_definition": "The process of measuring a model's quality or comparing different models against each other. To evaluate a supervised machine learning model, you typically judge it against a validation set and a test set . Evaluating a LLM typically involves broader quality and safety assessments.",
+        "top_score": 0.738072
+      },
+      {
+        "term": "human evaluation",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "human evaluation: A process in which people judge the quality of an ML model's output; for example, having bilingual people judge the quality of an ML translation model. Human evaluation is particularly useful for judging models that have no one right answer . Contrast with automatic evaluation and autorater evaluation .",
+        "canonical_definition": "A process in which people judge the quality of an ML model's output; for example, having bilingual people judge the quality of an ML translation model. Human evaluation is particularly useful for judging models that have no one right answer . Contrast with automatic evaluation and autorater evaluation .",
+        "top_score": 0.79085
+      },
+      {
+        "term": "latency",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "latency: The time it takes for a model to process input and generate a response. A high latency response takes takes longer to generate than a low latency response. Factors that influence latency of large language models include: Optimizing for latency is crucial for creating responsive and user-friendly applications.",
+        "canonical_definition": "The time it takes for a model to process input and generate a response. A high latency response takes takes longer to generate than a low latency response. Factors that influence latency of large language models include: Optimizing for latency is crucial for creating responsive and user-friendly applications.",
+        "top_score": 0.824783
+      },
+      {
+        "term": "conversational coding",
+        "passed": true,
+        "grounding_status": "grounded",
+        "generation_method": "evidence_template",
+        "generated_explanation": "conversational coding: An iterative dialog between you and a generative AI model for the purpose of creating software. You issue a prompt describing some software. Then, the model uses that description to generate code. Then, you issue a new prompt to address the flaws in the previous prompt or in the generated code, and the model generates updated code. You two keep going back and forth until the generated software is good enough. Conversation coding is essentially the original meaning of vibe coding . Contrast with specificational coding .",
+        "canonical_definition": "An iterative dialog between you and a generative AI model for the purpose of creating software. You issue a prompt describing some software. Then, the model uses that description to generate code. Then, you issue a new prompt to address the flaws in the previous prompt or in the generated code, and the model generates updated code. You two keep going back and forth until the generated software is good enough. Conversation coding is essentially the original meaning of vibe coding . Contrast with specificational coding .",
+        "top_score": 0.815902
+      }
+    ],
+    "positive_failures": [],
+    "negative_cases": [
+      {
+        "term": "database normalization",
+        "passed": true,
+        "grounding_status": "insufficient_evidence",
+        "generation_method": "none",
+        "generated_explanation": null,
+        "top_score": 0.664874,
+        "warnings": [
+          "Retrieved evidence did not meet the grounding requirements for explanation."
+        ]
+      },
+      {
+        "term": "quantum banana architecture",
+        "passed": true,
+        "grounding_status": "insufficient_evidence",
+        "generation_method": "none",
+        "generated_explanation": null,
+        "top_score": 0.601224,
+        "warnings": [
+          "Retrieved evidence did not meet the grounding requirements for explanation."
+        ]
+      },
+      {
+        "term": "nonexistent technical concept xyz",
+        "passed": true,
+        "grounding_status": "insufficient_evidence",
+        "generation_method": "none",
+        "generated_explanation": null,
+        "top_score": 0.587795,
+        "warnings": [
+          "Retrieved evidence did not meet the grounding requirements for explanation."
+        ]
+      },
+      {
+        "term": "fictional neural grammar engine",
+        "passed": true,
+        "grounding_status": "insufficient_evidence",
+        "generation_method": "none",
+        "generated_explanation": null,
+        "top_score": 0.694516,
+        "warnings": [
+          "Retrieved evidence did not meet the grounding requirements for explanation."
+        ]
+      },
+      {
+        "term": "imaginary quantum database",
+        "passed": true,
+        "grounding_status": "insufficient_evidence",
+        "generation_method": "none",
+        "generated_explanation": null,
+        "top_score": 0.603823,
+        "warnings": [
+          "Retrieved evidence did not meet the grounding requirements for explanation."
+        ]
+      }
+    ]
+  },
+  "final_checks": {
+    "30 retrieval cases": true,
+    "15 positive RAG cases": true,
+    "Recall@1": true,
+    "Recall@3": true,
+    "Recall@5": true,
+    "MRR": true,
+    "nDCG@5": true,
+    "Exact-term accuracy": true,
+    "Alias recall": true,
+    "Hyphen/space recall": true,
+    "Negative abstention": true,
+    "Per-subdomain evaluation": true,
+    "RAG grounding evaluation": true,
+    "Failure analysis": true
+  },
+  "day3_status": "COMPLETE"
+}

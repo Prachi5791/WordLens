@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Runtime uploads
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Runtime/cache data
+*.tmp
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML/cache
+models/*/cache/
+data/raw/.cache/
+
+# Test artifacts
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# Test/source documents
+data/files/*.pdf
+data/raw/source_cache/
+
+# Local scraped/source cache
+models/technical_term_detector/*_cache.json

@@ -1,0 +1,7 @@
+{
+  "base_model_name": "allenai/scibert_scivocab_uncased",
+  "vocabulary_dataset_hash": "5da2f51400248b5d46b3b763f5470c8427e24a4fb5cd635236c8626e2fd3470d",
+  "vocabulary_record_count": 518,
+  "embedding_text": "term + aliases + definition",
+  "embedding_dimension": 768
+}

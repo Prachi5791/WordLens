@@ -1,0 +1,222 @@
+[
+  {
+    "term": "artificial intelligence",
+    "aliases": [
+      "AI"
+    ],
+    "subdomain": "foundations",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "machine learning",
+    "aliases": [
+      "ML"
+    ],
+    "subdomain": "foundations",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "fine-tuning",
+    "aliases": [
+      "fine tuning"
+    ],
+    "subdomain": "training_alignment",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "instruction tuning",
+    "aliases": [
+      "instruction fine-tuning"
+    ],
+    "subdomain": "training_alignment",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "distillation",
+    "aliases": [
+      "knowledge distillation"
+    ],
+    "subdomain": "training_alignment",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "inference",
+    "aliases": [],
+    "subdomain": "prompting_inference",
+    "definition": "#fundamentals #generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "human evaluation",
+    "aliases": [],
+    "subdomain": "evaluation",
+    "definition": "#generativeAI",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "ground truth",
+    "aliases": [],
+    "subdomain": "evaluation",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "precision",
+    "aliases": [],
+    "subdomain": "evaluation",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "recall",
+    "aliases": [],
+    "subdomain": "evaluation",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "accuracy",
+    "aliases": [],
+    "subdomain": "evaluation",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "interpretability",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "toxicity",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "#Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "overfitting",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "underfitting",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "regularization",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "learning rate",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "batch size",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "epoch",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "loss function",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals #Metric",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  },
+  {
+    "term": "gradient descent",
+    "aliases": [],
+    "subdomain": "training_alignment",
+    "definition": "#fundamentals",
+    "source": "Google Machine Learning Glossary",
+    "source_url": "https://developers.google.com/machine-learning/glossary",
+    "source_retrieved_at": "2026-09-23T06:16:45.855201+00:00",
+    "source_priority": 2
+  }
+]

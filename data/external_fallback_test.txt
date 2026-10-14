@@ -1,0 +1,1 @@
+In modern machine learning systems, knowledge distillation transfers knowledge from a larger teacher model to a smaller student model. The student learns to approximate the behavior of the teacher while using fewer computational resources.

@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "id": "google_genai",
+      "name": "Google Machine Learning Glossary — Generative AI",
+      "url": "https://developers.google.com/machine-learning/glossary/generative",
+      "priority": 1,
+      "adapter": "google_glossary",
+      "enabled": true
+    },
+    {
+      "id": "google_cloud_genai",
+      "name": "Google Cloud Generative AI Glossary",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary",
+      "priority": 2,
+      "adapter": "google_glossary",
+      "enabled": true
+    },
+    {
+      "id": "google_ml",
+      "name": "Google Machine Learning Glossary",
+      "url": "https://developers.google.com/machine-learning/glossary",
+      "priority": 3,
+      "adapter": "google_glossary",
+      "enabled": true
+    },
+    {
+      "id": "nist_ai",
+      "name": "NIST AIRC — Language of Trustworthy AI Glossary",
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRBYglcOtgaMrdF11aFxfEY3EmB31zslYI4q2_7ZZ8z_1lKm7OHtF0t4xIsckuogNZ3hRZAaDQuv_K/pub?output=csv",
+      "priority": 4,
+      "adapter": "nist_ai_csv",
+      "enabled": true
+    },
+    {
+      "id": "nist_csrc",
+      "name": "NIST CSRC Glossary (cached when permitted)",
+      "url": "https://csrc.nist.gov/glossary?ipp-sm=all",
+      "priority": 5,
+      "adapter": "nist_cached_json",
+      "enabled": true
+    }
+  ]
+}

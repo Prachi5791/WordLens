@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-23T10:02:40.549936+00:00",
+  "target_range": [
+    120,
+    160
+  ],
+  "candidate_terms": 139,
+  "resolved_records": 135,
+  "accepted": 131,
+  "needs_review": 4,
+  "rejected": 0,
+  "unresolved_terms": [
+    "reinforcement learning",
+    "reinforcement learning from human feedback",
+    "generative adversarial network",
+    "variational autoencoder"
+  ],
+  "sources": {
+    "NIST CSRC Glossary": 6,
+    "Google Machine Learning Glossary": 127,
+    "Google Cloud Generative AI Glossary": 2
+  },
+  "subdomains": {
+    "safety_security": 30,
+    "retrieval_agents": 17,
+    "foundations": 14,
+    "transformer_llm": 11,
+    "generative_media": 2,
+    "evaluation": 15,
+    "training_alignment": 23,
+    "prompting_inference": 16,
+    "representation_context": 7
+  },
+  "duplicate_normalized_terms": 0
+}

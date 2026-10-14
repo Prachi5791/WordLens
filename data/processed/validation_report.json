@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-03T07:57:16.878673+00:00",
+  "raw_seed_records": 519,
+  "new_discovered_records": 0,
+  "final_records": 519,
+  "accepted": 518,
+  "needs_review": 1,
+  "validation_status": "passed",
+  "validation_errors": [],
+  "sources": {
+    "google_genai": "offline_no_cache",
+    "google_ml": "offline_no_cache",
+    "google_cloud_genai": "offline_no_cache",
+    "nist_csrc": "offline_no_cache"
+  },
+  "manual_term_list_used": false,
+  "domain_rules_are_detection_gates": false,
+  "taxonomy_is_optional": true
+}

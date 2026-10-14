@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "dataset_path": "/Users/prachipatil/Documents/projects/WordLens/WordLens/data/processed/technical_terms.json",
+  "dataset_hash": "4ea28a2270df9283e7beea155cb41ab9972d8f948b3fa1b606e97c9ab4300664",
+  "total_dataset_records": 519,
+  "accepted_active_records": 518,
+  "skipped_records": 1,
+  "inserted": 0,
+  "updated": 518,
+  "skipped": [
+    {
+      "term_id": "term_b82c271ec7409566",
+      "term": "causal language model",
+      "quality_status": "needs_review",
+      "is_active": true
+    }
+  ],
+  "imported_at": "2026-09-29T02:48:50.002628+00:00"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "term": "artificial intelligence",
+    "aliases": [
+      "AI"
+    ],
+    "subdomain": "foundations",
+    "definition": "(1) Any artificial system that performs tasks under varying and unpredictable circumstances without significant human oversight, or that can learn from experience and improve performance when exposed to data sets. (2) An artificial system developed in computer software, physical hardware, or other context that solves tasks requiring human-like perception, cognition, planning, learning, communication, or physical action. (3) An artificial system designed to think or act like a human, including cognitive architectures and neural networks. (4) A set of techniques, including machine learning, that is designed to approximate a cognitive task. (5) An artificial system designed to act rationally, including an intelligent software agent or embodied robot that achieves goals using perception, planning, reasoning, learning, communicating, decision making, and acting. Sources: CNSSI 4009-2022 from PL 115-232, Sec. 238 A machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments. Sources: NIST SP 800-218A About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/artificial_intelligence",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "bias",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "With respect to the uniform distribution on \\([0,n-1]\\), the bias is defined to be the maximum value of \\(\\{probability(S) - (\\frac{|S|}{n})\\}\\) taken over all subsets \\(S\\) of \\([0,n-1]\\). This measures the maximum advantage that an adversary has in predicting any event. Sources: FIPS 186-5 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/bias",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "adversarial example",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "A modified testing sample that induces misclassification or misbehav­ior of a machine learning model at deployment time. Sources: NIST AI 100-2e2025 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/adversarial_example",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "prompt injection",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "An attack which exploits the concatenation of untrusted input with a prompt constructed by a higher-trust party such as the application designer. Sources: NIST AI 100-2e2025 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/prompt_injection",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "jailbreak",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "A direct prompting attack intended to circumvent restrictions placed on model outputs, such as circumventing refusal behaviour to enable misuse. Sources: NIST AI 100-2e2025 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/jailbreak",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "data poisoning",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "A poisoning attack in which an adversary controls part of the training data. Sources: NIST AI 100-2e2025 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/data_poisoning",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "model poisoning",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "A poisoning attack which operates through model control. Sources: NIST AI 100-2e2025 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/model_poisoning",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "privacy risk",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "The likelihood that individuals will experience problems resulting from data processing, and the impact should they occur. Sources: NIST SP 800-188 from NIST Privacy Framework Version 1.0 NIST Privacy Framework Version 1.0 The likelihood that individuals will experience problems resulting from data processing, and the impact should they occur. Sources: NIST SP 800-18r2 under privacy risk from NIST Privacy Framework Version 1.0 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/privacy_risk",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "robustness",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "The ability of a CS entity to operate correctly and reliably across a wide range of operational conditions, and to fail gracefully outside of that operational range. Sources: CNSSI 4009-2022 When applied to ISCM, a property that an ISCM capability is sufficiently accurate, complete, timely, and reliable for providing security status information to organization decision-makers to enable them to make risk-based decisions. The ability of an information assurance (IA) entity to operate correctly and reliably across a wide range of operational conditions and to fail gracefully outside of that operational range. Sources: NIST SP 800-137A from CNSSI 4009-2022 About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/robustness",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "transparency",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "A privacy principle (FIPP) that addresses an organization's practices for conveying information regarding policies and practices with respect to PII, and providing clear and accessible notice regarding creation, collection, use, processing, storage, maintenance, dissemination, and disclosure of PII. Sources: CNSSI 4009-2022 from OMB Circular A-130 (2016) Amount of information that can be gathered about a supplier, product, or service and how far through the supply chain this information can be obtained. Sources: NIST SP 800-161r1-upd1 [11/1/2024 errata update] under Visibility from ISO/IEC 27036-2:2014 - adapted A property of openness and accountability throughout the supply chain. Sources: NISTIR 7622 under Visibility About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/transparency",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  },
+  {
+    "term": "accountability",
+    "aliases": [],
+    "subdomain": "safety_security",
+    "definition": "The principle that an individual is entrusted to safeguard and control equipment, keying material, and information and is answerable to proper authority for the loss or misuse of that equipment or information. Sources: CNSSI 4009-2022 from CNSSI 4005 Property that ensures that the actions of an entity may be traced uniquely to the entity. Sources: CNSSI 4009-2022 from ISO/IEC 7498-2:1989 A privacy principle (FIPP) that refers to an organization's requirements to demonstrate their implementation of the FIPPs and applicable privacy requirements. Sources: CNSSI 4009-2022 from OMB Circular A-130 (2016) - adapted The security objective that generates the requirement for actions of an entity to be traced uniquely to that entity. This supports non-repudiation, deterrence, fault isolation, intrusion detection and prevention, and after- action recovery and legal action. Sources: CNSSI 4009-2022 The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity. This supports non-repudiation, deterrence, fault isolation, intrusion detection and prevention, and after-action recovery and legal action. Sources: NIST SP 800-12 Rev. 1 under Accountability A property that ensures that the actions of an entity may be traced uniquely to that entity. Sources: NIST SP 800-57 Part 2 Rev.1 under Accountability 1. Assigning key management responsibilities to individuals and holding them accountable for these activities. 2. A property that ensures that the actions of an entity may be traced uniquely to that entity. Sources: NIST SP 800-57 Part 1 Rev. 5 under Accountability The property that ensures that the actions of an entity may be traced uniquely to the entity. Sources: NISTIR 5153 under Accountability from ISO DIS 10181-2 The property of being able to trace activities on a system to individuals who may then be held responsible for their actions. Sources: NISTIR 4734 under Accountability About See the identified Source document to understand each term-definition pair in its proper context. Send inquiries about terminology to the Source's authors; NIST publications will usually include a contact email for that Source. For other inquiries, such as comments about the Glossary's presentation and functionality, use this link. See the Glossary homepage for more guidance. HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 X (link is external) facebook (link is external) linkedin (link is external) instagram (link is external) youtube (link is external) rss govdelivery (link is external) Want updates about CSRC and our publications? Subscribe Contact Us | Our Other Offices Send inquiries to [email protected] Site Privacy Accessibility Privacy Program Copyrights Vulnerability Disclosure No Fear Act Policy FOIA Environmental Policy Scientific Integrity Information Quality Standards Commerce.gov Science.gov USA.gov Vote.gov",
+    "source": "NIST CSRC Glossary",
+    "source_url": "https://csrc.nist.gov/glossary/term/accountability",
+    "source_retrieved_at": "2026-09-23T06:17:04.743237+00:00",
+    "source_priority": 3
+  }
+]

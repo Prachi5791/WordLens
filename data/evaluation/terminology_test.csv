@@ -1,0 +1,6 @@
+term,domain,expected_relevant,reviewed,notes
+AUC,Machine Learning,True,False,
+classification,Machine Learning,True,False,
+epoch,Machine Learning,True,False,
+ground truth,Machine Learning,True,False,
+regularization,Machine Learning,True,False,
